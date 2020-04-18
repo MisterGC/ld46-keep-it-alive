@@ -10,6 +10,9 @@ GameEntity
     id: thePlayer
     bodyType: Body.Dynamic
     bullet: true
+
+    property int energy: 3
+
     property real moveSpeed: 25
     property real dodgeSpeed: 0
     property real _desiredVeloX: 0
@@ -23,7 +26,8 @@ GameEntity
     onIsProtectingChanged: { awake = false; awake = true; }
 
     debug: true
-    onIsDodgingChanged: text = isDodging ? "~==>" : ""
+    text: energy > 0 ? "♥".repeat(energy) : "☠"
+
     categories: collCat.player
     collidesWith: collCat.enemy | collCat.staticGeo | collCat.garden
 

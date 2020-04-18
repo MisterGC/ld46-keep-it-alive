@@ -26,7 +26,7 @@ GameEntity
         var e = fixture.getBody().target;
         if (theWorld.isInstanceOf(e, "Player")) {
             if (e.isDodging) theEnemy.destroy();
-            else text = "Got ya!";
+            else e.energy -= 1;
         }
     }
 
