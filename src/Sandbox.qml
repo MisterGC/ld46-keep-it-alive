@@ -40,6 +40,23 @@ ClayWorld {
     }
 
     Weather { }
+    Referee {
+        id: theReferee
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: parent.top
+        anchors.topMargin: 0.04 * parent.height
+        player: theWorld.player
+        onPlayerDied: refereeSays.text = "Player died :("
+        onGardenDied: refereeSays.text = "Garden died :("
+        onSeasonEnded: refereeSays.text = "Season ended :)"
+        Text {
+            id: refereeSays
+            anchors.centerIn: parent
+            text: Math.round(theReferee.gardenPercentage)
+                  + (player ? ("/" + theReferee.player.energy) : "")
+                  + "/" + theReferee.seasonPercentage
+        }
+    }
 
     Keys.forwardTo: theGameCtrl
     GameController {
@@ -83,6 +100,9 @@ ClayWorld {
         }
         else if (isInstanceOf(obj, "Enemy")) {
             obj.source = theWorld.resource("visual/enemy.png");
+        }
+        else if (isInstanceOf(obj, "Garden")) {
+           theReferee.addGarden(obj);
         }
     }
 
