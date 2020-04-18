@@ -158,9 +158,9 @@
        height="13.29199"
        width="21.734243"
        id="rect2172-5-2-4"
-       style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc5900-6-28-7">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
+         id="desc5900-6-28-7">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
        y="56.853477"
@@ -168,9 +168,9 @@
        height="28.7293"
        width="12.792088"
        id="rect2172-5-2-15"
-       style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.40355438;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.40355438;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc5900-6-28-5">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
+         id="desc5900-6-28-5">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
        y="57.152184"
@@ -178,9 +178,9 @@
        height="11.973398"
        width="22.211039"
        id="rect2172-5-2-47"
-       style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.24502046;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502046;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc5900-6-28-65">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
+         id="desc5900-6-28-65">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
        y="10.202909"
@@ -188,9 +188,9 @@
        height="24.880625"
        width="12.210918"
        id="rect2172-2-0"
-       style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc5900-9-6">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
+         id="desc5900-9-6">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
        y="78.956146"
