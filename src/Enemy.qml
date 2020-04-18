@@ -11,8 +11,8 @@ GameEntity
     bodyType: Body.Dynamic
     bullet: true
     sensor: true
-    categories: Box.Category3
-    collidesWith: Box.Category1 | Box.Category2
+    categories: collCat.enemy
+    collidesWith: collCat.player
     debug: true
 
     Component.onCompleted: {

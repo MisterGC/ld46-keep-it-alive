@@ -15,6 +15,16 @@ ClayWorld {
     timeStep: 1/60.0
 
     property var player: null
+
+    QtObject {
+        id: collCat
+        readonly property int staticGeo: Box.Category1
+        readonly property int player: Box.Category2
+        readonly property int enemy: Box.Category3
+        readonly property int naturalForce: Box.Category4
+        readonly property int garden: Box.Category5
+    }
+
     onWorldAboutToBeCreated: player = null;
     onWorldCreated: {
         theGameCtrl.selectKeyboard(Qt.Key_Up,

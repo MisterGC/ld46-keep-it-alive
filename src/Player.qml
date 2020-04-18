@@ -17,8 +17,8 @@ GameEntity
     property bool isDodging: dodgeSpeed > 0
     debug: true
     onIsDodgingChanged: text = isDodging ? "~==>" : ""
-    categories: Box.Category2
-    collidesWith: Box.Category1 | Box.Category3
+    categories: collCat.player
+    collidesWith: collCat.enemy | collCat.staticGeo | collCat.garden
     property bool isPlayer: true
 
     Component.onCompleted: {

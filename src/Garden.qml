@@ -9,8 +9,8 @@ GameEntity
 {
     id: theGarden
     bodyType: Body.Static
-    categories: Box.Category1
-    collidesWith: Box.Category2 | Box.Category3
+    categories: collCat.garden
+    collidesWith: collCat.player | collCat.enemy | collCat.naturalForce
     debug: true
     color: "green"
     property int energy: 100
