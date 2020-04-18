@@ -5,7 +5,7 @@ import Box2D 2.0
 import Clayground.Physics 1.0
 import Clayground.ScalingCanvas 1.0
 
-VisualizedBoxBody
+GameEntity
 {
     id: thePlayer
     bodyType: Body.Dynamic
@@ -14,16 +14,51 @@ VisualizedBoxBody
     property real dodgeSpeed: 0
     property real _desiredVeloX: 0
     property real _desiredVeloY: 0
+    property bool desiresToMove: Math.abs(_desiredVeloX) > 0
+                                 || Math.abs(_desiredVeloY) > 0
     property bool isDodging: dodgeSpeed > 0
-    onIsDodgingChanged: theDebugTxt.text = isDodging ? "~==>" : ""
-    categories: Box.Category2
-    collidesWith: Box.Category1 | Box.Category3
-    property bool isPlayer: true
+    property bool isProtecting: false
+    // Workaround to trigger collision checks even if player doesn't
+    // move between triggering protections two time
+    onIsProtectingChanged: { awake = false; awake = true; }
+
+    debug: true
+    onIsDodgingChanged: text = isDodging ? "~==>" : ""
+    categories: collCat.player
+    collidesWith: collCat.enemy | collCat.staticGeo | collCat.garden
 
     Component.onCompleted: {
         for (let i=0; i<fixtures.length; ++i) {
             let f = fixtures[i];
             f.endContact.connect(_onEndContact);
+        }
+        let obj = protectionRange.createObject(thePlayer,{});
+        body.addFixture(obj);
+    }
+
+    Rectangle {
+        id: protectionRangeVisu
+        opacity: .2
+        color: "red"
+        visible: thePlayer.isProtecting
+        property int scaleFac: thePlayer.isProtecting ? 10 : 1
+        x: -.5 * (width - thePlayer.width)
+        y: -.5 * (width - thePlayer.width)
+        width: thePlayer.width * scaleFac
+        height: thePlayer.height * scaleFac
+    }
+
+    Component {
+        id: protectionRange
+        Box {
+            x: protectionRangeVisu.x
+            y: protectionRangeVisu.y
+            width:  protectionRangeVisu.width
+            height: protectionRangeVisu.height
+            sensor: true
+            categories: collCat.magicProtection
+            collidesWith: collCat.garden
+            property int protection: thePlayer.isProtecting ? 2 : 0
         }
     }
 
@@ -45,16 +80,6 @@ VisualizedBoxBody
             _desiredVeloY = _desiredVeloY < 0 ? -speed : speed;
         body.linearVelocity.x = _desiredVeloX;
         body.linearVelocity.y = _desiredVeloY;
-    }
-
-    ScalingText {
-        id: theDebugTxt
-        anchors.bottom: parent.top
-        anchors.horizontalCenter: parent.horizontalCenter
-        parent: thePlayer
-        canvas: theWorld
-        fontSizeWu: 2.0
-        text: ""
     }
 
     function moveUp() { _desiredVeloY = -moveSpeed; }

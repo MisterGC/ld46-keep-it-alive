@@ -5,14 +5,15 @@ import Box2D 2.0
 import Clayground.Physics 1.0
 import Clayground.ScalingCanvas 1.0
 
-VisualizedBoxBody
+GameEntity
 {
     id: theEnemy
     bodyType: Body.Dynamic
     bullet: true
     sensor: true
-    categories: Box.Category3
-    collidesWith: Box.Category1 | Box.Category2
+    categories: collCat.enemy
+    collidesWith: collCat.player
+    debug: true
 
     Component.onCompleted: {
         for (let i=0; i<fixtures.length; ++i) {
@@ -23,20 +24,10 @@ VisualizedBoxBody
 
     function _onCollision(fixture) {
         var e = fixture.getBody().target;
-        if (e.isPlayer) {
+        if (theWorld.isInstanceOf(e, "Player")) {
             if (e.isDodging) theEnemy.destroy();
-            else  theDebugTxt.text = "Got ya!";
+            else text = "Got ya!";
         }
-    }
-
-    ScalingText {
-        id: theDebugTxt
-        anchors.bottom: parent.top
-        anchors.horizontalCenter: parent.horizontalCenter
-        parent: theEnemy
-        canvas: theWorld
-        fontSizeWu: 1.0
-        text: ""
     }
 
     property int energy: 10000
