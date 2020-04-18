@@ -31,6 +31,10 @@ ClayWorld {
         id: theGameCtrl
         anchors.fill: parent
 
+        onButtonAPressedChanged: {
+            player.maxVelo = buttonAPressed ? 35 : 18;
+        }
+
         onAxisXChanged: {
             if (axisX > 0) player.moveRight();
             else if (axisX < 0) player.moveLeft();
@@ -41,6 +45,7 @@ ClayWorld {
             else if (axisY < 0) player.moveDown();
             else { player.stopUp(); player.stopDown();}
         }
+
     }
 
     onObjectCreated: {
