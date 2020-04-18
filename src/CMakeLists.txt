@@ -9,10 +9,6 @@ find_package(Qt5 COMPONENTS Core Quick REQUIRED)
 
 add_executable (${PROJECT_NAME}
 main.cpp
-main.qml
-Sandbox.qml
-Player.qml
-Wall.qml
 res.qrc
 sound/sound.qrc
 visual/visual.qrc
