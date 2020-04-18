@@ -14,9 +14,18 @@ GameEntity
     property real dodgeSpeed: 0
     property real _desiredVeloX: 0
     property real _desiredVeloY: 0
+    property bool desiresToMove: Math.abs(_desiredVeloX) > 0
+                                 || Math.abs(_desiredVeloY) > 0
     property bool isDodging: dodgeSpeed > 0
+    property bool isProtecting: false
+    // Workaround to trigger collision checks even if player doesn't
+    // move between triggering protections two time
+    onIsProtectingChanged: { awake = false; awake = true; }
+
+    text: desiresToMove + "/" + isProtecting
+
     debug: true
-    onIsDodgingChanged: text = isDodging ? "~==>" : ""
+    //onIsDodgingChanged: text = isDodging ? "~==>" : ""
     categories: collCat.player
     collidesWith: collCat.enemy | collCat.staticGeo | collCat.garden
 
@@ -24,6 +33,23 @@ GameEntity
         for (let i=0; i<fixtures.length; ++i) {
             let f = fixtures[i];
             f.endContact.connect(_onEndContact);
+        }
+        let obj = protectionRange.createObject(thePlayer,{});
+        body.addFixture(obj);
+    }
+
+    Component {
+        id: protectionRange
+        Box {
+            property int scaleFac: thePlayer.isProtecting ? 5 : 1
+            x: -.5 * (width - thePlayer.width)
+            y: -.5 * (width - thePlayer.width)
+            width: thePlayer.width * scaleFac
+            height: thePlayer.height * scaleFac
+            sensor: true
+            categories: collCat.magicProtection
+            collidesWith: collCat.garden
+            property int protection: thePlayer.isProtecting ? 2 : 0
         }
     }
 
