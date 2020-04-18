@@ -5,7 +5,6 @@ Rectangle {
     id: theGameEnding
 
     property Referee referee: null
-    signal requestRestart()
 
     visible: false
     anchors.fill: parent
