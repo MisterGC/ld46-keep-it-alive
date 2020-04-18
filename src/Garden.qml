@@ -16,8 +16,9 @@ GameEntity
                   collCat.magicProtection
     debug: true
     color: protection > 0 ? "lightgreen" : "green"
+    property int maxEnergy: widthWu * heightWu
     // Energy of the garden, if it is 0, the garden dead
-    property int energy: 100
+    property int energy: maxEnergy
     // Protection decreases dealt damage
     property int protection: 0
 
