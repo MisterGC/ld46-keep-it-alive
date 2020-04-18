@@ -19,7 +19,6 @@ GameEntity
     onIsDodgingChanged: text = isDodging ? "~==>" : ""
     categories: collCat.player
     collidesWith: collCat.enemy | collCat.staticGeo | collCat.garden
-    property bool isPlayer: true
 
     Component.onCompleted: {
         for (let i=0; i<fixtures.length; ++i) {

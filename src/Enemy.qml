@@ -24,7 +24,7 @@ GameEntity
 
     function _onCollision(fixture) {
         var e = fixture.getBody().target;
-        if (e.isPlayer) {
+        if (theWorld.isInstanceOf(e, "Player")) {
             if (e.isDodging) theEnemy.destroy();
             else text = "Got ya!";
         }
