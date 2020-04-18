@@ -19,10 +19,17 @@ GameEntity
     Component.onCompleted: {
         for (let i=0; i<fixtures.length; ++i) {
             let f = fixtures[i];
-            f.beginContact.connect(_onCollision);
+            f.beginContact.connect(_onBeginContact);
         }
     }
 
-    function _onCollision(fixture) {
+    function _onBeginContact(fixture) {
+        var e = fixture.getBody().target;
+        if (theWorld.isInstanceOf(e, "Storm"))
+            e.attack.connect(_onAttack)
+    }
+
+    function _onAttack(damage) {
+        energy -= damage;
     }
 }

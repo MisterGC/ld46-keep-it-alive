@@ -6,6 +6,7 @@
         <file>Garden.qml</file>
         <file>Enemy.qml</file>
         <file>Sandbox.qml</file>
+        <file>Storm.qml</file>
         <file>Wall.qml</file>
         <file>map.svg</file>
     </qresource>

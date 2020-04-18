@@ -232,5 +232,15 @@
       <desc
          id="desc1692">{&quot;component&quot;:&quot;Enemy.qml&quot;}</desc>
     </rect>
+    <rect
+       style="opacity:1;fill:#c4c8b7;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1700"
+       width="14.363708"
+       height="74.146156"
+       x="51.073723"
+       y="8.8678865">
+      <desc
+         id="desc1698">{&quot;component&quot;:&quot;Storm.qml&quot;}</desc>
+    </rect>
   </g>
 </svg>
