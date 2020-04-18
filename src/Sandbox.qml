@@ -31,6 +31,15 @@ ClayWorld {
         id: theGameCtrl
         anchors.fill: parent
 
+        onButtonAPressedChanged: {
+            player.moveSpeed = buttonAPressed ? 35 : 18;
+        }
+
+        onButtonBPressedChanged: {
+            let p = player;
+            if (buttonBPressed && p.dodgeSpeed < 75) p.dodgeSpeed = 75;
+        }
+
         onAxisXChanged: {
             if (axisX > 0) player.moveRight();
             else if (axisX < 0) player.moveLeft();
@@ -41,13 +50,16 @@ ClayWorld {
             else if (axisY < 0) player.moveDown();
             else { player.stopUp(); player.stopDown();}
         }
+
     }
 
     onObjectCreated: {
         if (isInstanceOf(obj, "Player")) {
             player = obj;
             player.source = theWorld.resource("visual/player.png");
-            player.color = "#d45500";
+        }
+        else if (isInstanceOf(obj, "Enemy")) {
+            obj.source = theWorld.resource("visual/enemy.png");
         }
     }
 

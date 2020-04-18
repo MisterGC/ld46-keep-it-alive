@@ -6,6 +6,6 @@ import QtQuick.Window 2.12
 Window {
     visible: true
     visibility: Window.Maximized
-    title: qsTr("TopDown")
+    title: qsTr("Keeper of the Garden")
     Sandbox { runsInSbx: false; anchors.centerIn: parent }
 }

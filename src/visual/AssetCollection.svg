@@ -29,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.31638837"
-     inkscape:cx="-506.50527"
-     inkscape:cy="1423.2309"
+     inkscape:zoom="1.7897629"
+     inkscape:cx="70.661431"
+     inkscape:cy="916.87236"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -86,7 +86,7 @@
          id="g2826" />
     </g>
     <rect
-       style="fill:#935d40;fill-opacity:1;stroke:none;stroke-width:0.34395832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#04497d;fill-opacity:1;stroke:none;stroke-width:0.34395832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2000"
        width="55"
        height="55"
@@ -102,7 +102,7 @@
        inkscape:export-xdpi="100"
        inkscape:export-ydpi="100" />
     <rect
-       style="fill:#935d40;fill-opacity:1;stroke:none;stroke-width:0.34395832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#04497d;fill-opacity:1;stroke:none;stroke-width:0.34395832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2004"
        width="9.3821983"
        height="8.5713911"
@@ -116,6 +116,22 @@
        id="path2006"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       style="fill:#842600;fill-opacity:1;stroke:none;stroke-width:0.34395832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2000-0"
+       width="55.000004"
+       height="55.000004"
+       x="86.625916"
+       y="0.15100586"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <path
+       style="fill:#ffffff;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 119.89135,45.982112 102.59506,41.990663 V 8.5807433 l 24.24437,0.2956628 -4.13929,7.6872379 -13.157,1.478315 v 6.94808 l 15.67014,-1.478314 1.03482,9.756877 -15.81797,-3.104459 0.29566,8.278563 13.6005,1.182651 z"
+       id="path1666"
+       inkscape:connector-curvature="0"
        inkscape:export-xdpi="100"
        inkscape:export-ydpi="100" />
   </g>
