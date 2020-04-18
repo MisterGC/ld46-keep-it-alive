@@ -8,6 +8,7 @@
         <file>Enemy.qml</file>
         <file>Referee.qml</file>
         <file>Sandbox.qml</file>
+        <file>StartScreen.qml</file>
         <file>Storm.qml</file>
         <file>Weather.qml</file>
         <file>Wall.qml</file>

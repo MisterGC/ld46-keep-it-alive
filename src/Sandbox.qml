@@ -9,12 +9,13 @@ import Clayground.World 1.0
 ClayWorld {
     id: theWorld
 
-    map: "map.svg"
+    map: ""
     pixelPerUnit: height/70
     gravity: Qt.point(0,0)
     timeStep: 1/60.0
 
     property var player: null
+    //physicsDebugging: true
 
     QtObject {
         id: collCat
@@ -67,11 +68,13 @@ ClayWorld {
         anchors.fill: parent
 
         onButtonAPressedChanged: {
+            if (!player) return;
             if (player.isProtecting) return;
             player.moveSpeed = buttonAPressed ? 35 : 18;
         }
 
         onButtonBPressedChanged: {
+            if (!player) return;
             let p = player;
             if (buttonBPressed) {
                 if (p.desiresToMove) p.dodgeSpeed = 75;
@@ -82,17 +85,20 @@ ClayWorld {
         }
 
         onAxisXChanged: {
+            if (!player) return;
             if (player.isProtecting) return;
             if (axisX > 0) player.moveRight();
             else if (axisX < 0) player.moveLeft();
             else { player.stopLeft(); player.stopRight();}
         }
         onAxisYChanged: {
+            if (!player) return;
             if (player.isProtecting) return;
             if (axisY > 0) player.moveUp();
             else if (axisY < 0) player.moveDown();
             else { player.stopUp(); player.stopDown();}
         }
+        //showDebugOverlay: true
 
     }
 
@@ -117,6 +123,21 @@ ClayWorld {
         loops: SoundEffect.Infinite
     }
 
+    StartScreen {
+       visible: true
+        Component.onCompleted: {
+            theGameCtrl.buttonAPressedChanged.connect(startOnDemand)
+            theGameCtrl.buttonBPressedChanged.connect(startOnDemand)
+        }
+        function startOnDemand() {
+            if (visible) {
+                map = "";
+                map = "map.svg";
+                visible = false;
+            }
+        }
+    }
+
     GameEnding {
         referee: theReferee
         Component.onCompleted: {
@@ -131,8 +152,6 @@ ClayWorld {
                 visible = false;
             }
         }
-
-        onRequestRestart: restartOnDemand()
     }
 
 }
