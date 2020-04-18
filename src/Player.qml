@@ -3,6 +3,7 @@
 import QtQuick 2.12
 import Box2D 2.0
 import Clayground.Physics 1.0
+import Clayground.ScalingCanvas 1.0
 
 VisualizedBoxBody
 {
@@ -14,6 +15,7 @@ VisualizedBoxBody
     property real _desiredVeloX: 0
     property real _desiredVeloY: 0
     property bool isDodging: dodgeSpeed > 0
+    onIsDodgingChanged: theDebugTxt.text = isDodging ? "~==>" : ""
     categories: Box.Category2
     collidesWith: Box.Category1 | Box.Category3
     property bool isPlayer: true
@@ -43,6 +45,16 @@ VisualizedBoxBody
             _desiredVeloY = _desiredVeloY < 0 ? -speed : speed;
         body.linearVelocity.x = _desiredVeloX;
         body.linearVelocity.y = _desiredVeloY;
+    }
+
+    ScalingText {
+        id: theDebugTxt
+        anchors.bottom: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+        parent: thePlayer
+        canvas: theWorld
+        fontSizeWu: 2.0
+        text: ""
     }
 
     function moveUp() { _desiredVeloY = -moveSpeed; }

@@ -24,8 +24,8 @@ VisualizedBoxBody
     function _onCollision(fixture) {
         var e = fixture.getBody().target;
         if (e.isPlayer) {
-            let txt = e.isDodging ? "You got me :(" : "I got you ;)";
-            theDebugTxt.text = txt;
+            if (e.isDodging) theEnemy.destroy();
+            else  theDebugTxt.text = "Got ya!";
         }
     }
 
