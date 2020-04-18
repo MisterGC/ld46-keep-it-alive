@@ -22,10 +22,8 @@ GameEntity
     // move between triggering protections two time
     onIsProtectingChanged: { awake = false; awake = true; }
 
-    text: desiresToMove + "/" + isProtecting
-
     debug: true
-    //onIsDodgingChanged: text = isDodging ? "~==>" : ""
+    onIsDodgingChanged: text = isDodging ? "~==>" : ""
     categories: collCat.player
     collidesWith: collCat.enemy | collCat.staticGeo | collCat.garden
 
@@ -38,14 +36,25 @@ GameEntity
         body.addFixture(obj);
     }
 
+    Rectangle {
+        id: protectionRangeVisu
+        opacity: .2
+        color: "red"
+        visible: thePlayer.isProtecting
+        property int scaleFac: thePlayer.isProtecting ? 10 : 1
+        x: -.5 * (width - thePlayer.width)
+        y: -.5 * (width - thePlayer.width)
+        width: thePlayer.width * scaleFac
+        height: thePlayer.height * scaleFac
+    }
+
     Component {
         id: protectionRange
         Box {
-            property int scaleFac: thePlayer.isProtecting ? 5 : 1
-            x: -.5 * (width - thePlayer.width)
-            y: -.5 * (width - thePlayer.width)
-            width: thePlayer.width * scaleFac
-            height: thePlayer.height * scaleFac
+            x: protectionRangeVisu.x
+            y: protectionRangeVisu.y
+            width:  protectionRangeVisu.width
+            height: protectionRangeVisu.height
             sensor: true
             categories: collCat.magicProtection
             collidesWith: collCat.garden
