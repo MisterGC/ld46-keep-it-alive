@@ -15,15 +15,14 @@ GameEntity
     color: "grey"
     opacity: .5
     sensor: true
-    property int durationSeconds: 10
+    property int duration: 1000
 
     signal attack(var damage)
 
     Timer {
-        interval: durationSeconds * 1000
+        interval: duration
         onTriggered: theStorm.destroy();
         Component.onCompleted: start()
-        repeat: true
     }
 
     Timer {

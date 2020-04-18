@@ -7,6 +7,7 @@
         <file>Enemy.qml</file>
         <file>Sandbox.qml</file>
         <file>Storm.qml</file>
+        <file>Weather.qml</file>
         <file>Wall.qml</file>
         <file>map.svg</file>
     </qresource>

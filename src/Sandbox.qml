@@ -39,6 +39,8 @@ ClayWorld {
         theWorld.observedItem = player;
     }
 
+    Weather { }
+
     Keys.forwardTo: theGameCtrl
     GameController {
         id: theGameCtrl
