@@ -10,7 +10,7 @@ ClayWorld {
     id: theWorld
 
     map: "map.svg"
-    pixelPerUnit: width / theWorld.worldXMax
+    pixelPerUnit: height/70
     gravity: Qt.point(0,0)
     timeStep: 1/60.0
 

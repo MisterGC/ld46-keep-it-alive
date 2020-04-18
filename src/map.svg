@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="71.561371mm"
-   height="100.79476mm"
-   viewBox="0 0 71.561371 100.79476"
+   width="197.95139mm"
+   height="185.40823mm"
+   viewBox="0 0 197.95139 185.40823"
    version="1.1"
    id="svg1623"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="109.44495"
-     inkscape:cy="188.68008"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="90.879274"
+     inkscape:cy="356.10426"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="svg1623"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1312"
@@ -43,7 +43,9 @@
      inkscape:snap-global="false">
     <inkscape:grid
        type="xygrid"
-       id="grid6135" />
+       id="grid6135"
+       originx="-0.13942419"
+       originy="-0.17289063" />
   </sodipodi:namedview>
   <metadata
      id="metadata1620">
@@ -53,27 +55,26 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-0.09449405,0.75595238)">
+     id="layer1">
     <rect
-       y="96.142357"
-       x="0.42082193"
+       y="181.86661"
+       x="0.42082191"
        height="3.7235618"
-       width="21.990046"
+       width="197.58612"
        id="rect2172"
        style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.34455863;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc5900">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
     </rect>
     <rect
-       y="91.807335"
+       y="177.53166"
        x="24.531097"
        height="3.7390227"
        width="3.5938382"
@@ -83,9 +84,9 @@
          id="desc5920">{&quot;component&quot;:&quot;Player.qml&quot;}</desc>
     </rect>
     <rect
-       y="-0.25063053"
+       y="0.21544635"
        x="0.32977182"
-       height="99.660851"
+       height="184.91983"
        width="3.5926869"
        id="rect2172-5"
        style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.72051454;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
@@ -93,19 +94,19 @@
          id="desc5900-6">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
     </rect>
     <rect
-       y="-0.34648404"
-       x="0.23391822"
+       y="0.18274772"
+       x="0.23391823"
        height="3.6629648"
-       width="30.90793"
+       width="197.95139"
        id="rect2172-2"
        style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.40515584;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc5900-9">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
     </rect>
     <rect
-       y="-0.25063053"
-       x="67.518784"
-       height="99.660851"
+       y="2.8881438"
+       x="194.51881"
+       height="182.24713"
        width="3.5926869"
        id="rect2172-5-1"
        style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.72051454;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
@@ -113,47 +114,7 @@
          id="desc5900-6-2">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
     </rect>
     <rect
-       y="-0.25063053"
-       x="40.203541"
-       height="3.6629648"
-       width="30.907932"
-       id="rect2172-2-7"
-       style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.40515584;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc5900-9-0">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
-    </rect>
-    <rect
-       style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.158859;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect6133"
-       width="9.1378994"
-       height="1.9047402"
-       x="31.143387"
-       y="-0.34494689">
-      <desc
-         id="desc6131">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
-    </rect>
-    <rect
-       style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.45644259;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect6175"
-       width="39.785221"
-       height="3.6116779"
-       x="30.19471"
-       y="96.198296">
-      <desc
-         id="desc6173">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
-    </rect>
-    <rect
-       style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.158859;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect6133-6"
-       width="9.1378994"
-       height="1.9047402"
-       x="21.851589"
-       y="98.017357">
-      <desc
-         id="desc6131-2">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="30.885"
+       y="116.61005"
        x="38.506016"
        height="13.29199"
        width="21.734243"
@@ -163,7 +124,7 @@
          id="desc5900-6-28-7">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
-       y="56.853477"
+       y="142.57834"
        x="10.423896"
        height="28.7293"
        width="12.792088"
@@ -173,7 +134,7 @@
          id="desc5900-6-28-5">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
-       y="57.152184"
+       y="142.87698"
        x="37.936886"
        height="11.973398"
        width="22.211039"
@@ -183,7 +144,7 @@
          id="desc5900-6-28-65">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
-       y="10.202909"
+       y="95.927979"
        x="11.42837"
        height="24.880625"
        width="12.210918"
@@ -193,7 +154,7 @@
          id="desc5900-9-6">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
-       y="78.956146"
+       y="164.68065"
        x="36.909817"
        height="3.7390227"
        width="3.5938382"
@@ -208,12 +169,12 @@
        width="3.5938382"
        height="3.7390227"
        x="36.531841"
-       y="48.340076">
+       y="134.065">
       <desc
          id="desc1684">{&quot;component&quot;:&quot;Enemy.qml&quot;}</desc>
     </rect>
     <rect
-       y="17.818499"
+       y="103.54359"
        x="37.004311"
        height="3.7390227"
        width="3.5938382"
@@ -228,7 +189,7 @@
        width="3.5938382"
        height="3.7390227"
        x="9.5065432"
-       y="44.93829">
+       y="130.66331">
       <desc
          id="desc1692">{&quot;component&quot;:&quot;Enemy.qml&quot;}</desc>
     </rect>
@@ -238,9 +199,89 @@
        width="14.363708"
        height="74.146156"
        x="51.073723"
-       y="8.8678865">
+       y="94.592957">
       <desc
          id="desc1698">{&quot;component&quot;:&quot;Storm.qml&quot;}</desc>
+    </rect>
+    <rect
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1704"
+       width="12.210918"
+       height="24.880625"
+       x="27.464542"
+       y="33.921417">
+      <desc
+         id="desc1702">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       y="48.0867"
+       x="148.8049"
+       height="24.880625"
+       width="12.210918"
+       id="rect1708"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1706">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1712"
+       width="12.210918"
+       height="24.880625"
+       x="125.81973"
+       y="123.45669">
+      <desc
+         id="desc1710">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       y="78.822708"
+       x="95.885544"
+       height="24.880625"
+       width="12.210918"
+       id="rect1716"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc1714">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       y="39.603157"
+       x="79.564476"
+       height="13.291991"
+       width="21.734243"
+       id="rect2172-5-2-4-0"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc5900-6-28-7-8">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       y="105.61877"
+       x="158.14171"
+       height="13.291991"
+       width="21.734243"
+       id="rect2172-5-2-4-5"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc5900-6-28-7-0">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       y="158.53767"
+       x="87.849831"
+       height="13.291991"
+       width="21.734243"
+       id="rect2172-5-2-4-6"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc5900-6-28-7-4">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       y="12.876213"
+       x="120.45671"
+       height="13.291991"
+       width="21.734243"
+       id="rect2172-5-2-4-62"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc5900-6-28-7-5">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
   </g>
 </svg>
