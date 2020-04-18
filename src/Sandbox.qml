@@ -47,7 +47,9 @@ ClayWorld {
         if (isInstanceOf(obj, "Player")) {
             player = obj;
             player.source = theWorld.resource("visual/player.png");
-            player.color = "#d45500";
+        }
+        else if (isInstanceOf(obj, "Enemy")) {
+            obj.source = theWorld.resource("visual/enemy.png");
         }
     }
 

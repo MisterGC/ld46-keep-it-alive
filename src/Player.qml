@@ -8,16 +8,11 @@ VisualizedBoxBody
 {
     id: thePlayer
     bodyType: Body.Dynamic
-    color: "#3fa4c8"
     bullet: true
     property real maxVelo: 25
     categories: Box.Category2
-    collidesWith: Box.Category1
+    collidesWith: Box.Category1 | Box.Category3
     property bool isPlayer: true
-    property int energy: 10000
-    readonly property int maxEnergy: 10000
-    opacity: energy/maxEnergy
-    fixedRotation: false
 
     function moveUp() { body.linearVelocity.y = -maxVelo; }
     function moveDown() { body.linearVelocity.y = maxVelo; }
