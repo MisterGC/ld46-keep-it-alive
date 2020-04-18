@@ -6,20 +6,42 @@ Item {
     property var player: undefined
     property real gardenPercentage: 100.0
     property int maxEnergyGarden: 0
-
-    property int seasonLength: 100
     property int timeElapsed: 0
-    property real seasonPercentage: Math.round(timeElapsed / seasonLength)
+
+    readonly property int seasonLength: 300
+    readonly property real seasonPercentage: Math.round(timeElapsed * 100.0 / seasonLength)
+    onSeasonPercentageChanged: {
+        if (seasonPercentage >= 100) {
+            theOneSecTimer.stop();
+            seasonEnded();
+        }
+    }
+
+    onPlayerChanged: {
+        if (player) {
+            player.energyChanged.connect(_onPlayerEnergyChanged);
+            theOneSecTimer.start();
+        }
+        else {
+            theOneSecTimer.stop();
+            gardens=[];
+            gardenPercentage=100.0;
+            maxEnergyGarden=0;
+            timeElapsed=0;
+        }
+    }
+
 
     signal playerDied()
     signal gardenDied()
     signal seasonEnded()
 
     Timer {
-        id: theGameTime
-        interval: 50000
+        id: theOneSecTimer
+        interval: 1000
         Component.onCompleted: start()
-        onTriggered: seasonEnded()
+        onTriggered: timeElapsed++
+        repeat: true
     }
 
     onGardenPercentageChanged: {
@@ -37,11 +59,6 @@ Item {
         for (const g of gardens)
             energy += g.energy;
         gardenPercentage = Math.round((energy/maxEnergyGarden) * 100.0);
-    }
-
-    onPlayerChanged: {
-        if (player)
-            player.energyChanged.connect(_onPlayerEnergyChanged);
     }
 
     function _onPlayerEnergyChanged() {

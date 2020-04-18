@@ -2,6 +2,7 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>Player.qml</file>
+        <file>GameEnding.qml</file>
         <file>GameEntity.qml</file>
         <file>Garden.qml</file>
         <file>Enemy.qml</file>

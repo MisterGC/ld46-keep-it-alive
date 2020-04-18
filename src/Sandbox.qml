@@ -27,7 +27,11 @@ ClayWorld {
         readonly property int noCollision: Box.None
     }
 
-    onWorldAboutToBeCreated: player = null;
+    onWorldAboutToBeCreated: {
+        player = null;
+        theWeather.running = false;
+        console.log("World about to be created")
+    }
     onWorldCreated: {
 //        theGameCtrl.selectKeyboard(Qt.Key_Up,
 //                                   Qt.Key_Down,
@@ -37,18 +41,17 @@ ClayWorld {
 //                                   Qt.Key_S);
         theGameCtrl.selectGamepad(0, true);
         theWorld.observedItem = player;
+        theWeather.running = true;
+        console.log("World created!")
     }
 
-    Weather { }
+    Weather {id: theWeather }
     Referee {
         id: theReferee
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: parent.top
         anchors.topMargin: 0.04 * parent.height
         player: theWorld.player
-        onPlayerDied: refereeSays.text = "Player died :("
-        onGardenDied: refereeSays.text = "Garden died :("
-        onSeasonEnded: refereeSays.text = "Season ended :)"
         Text {
             id: refereeSays
             anchors.centerIn: parent
@@ -113,4 +116,23 @@ ClayWorld {
         source: theWorld.resource("sound/bgmusic.wav")
         loops: SoundEffect.Infinite
     }
+
+    GameEnding {
+        referee: theReferee
+        Component.onCompleted: {
+            theGameCtrl.buttonAPressedChanged.connect(restartOnDemand)
+            theGameCtrl.buttonBPressedChanged.connect(restartOnDemand)
+        }
+
+        function restartOnDemand() {
+            if (visible) {
+                map = "";
+                map = "map.svg";
+                visible = false;
+            }
+        }
+
+        onRequestRestart: restartOnDemand()
+    }
+
 }
