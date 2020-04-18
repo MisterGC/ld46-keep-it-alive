@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/visual">
+        <file>player.png</file>
+    </qresource>
+</RCC>
+
