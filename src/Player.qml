@@ -9,9 +9,11 @@ VisualizedBoxBody
     id: thePlayer
     bodyType: Body.Dynamic
     bullet: true
-    property real maxVelo: 25
-    property real desiredVeloX: 0
-    property real desiredVeloY: 0
+    property real moveSpeed: 25
+    property real dodgeSpeed: 0
+    property real _desiredVeloX: 0
+    property real _desiredVeloY: 0
+    property bool isDodging: dodgeSpeed > 0
     categories: Box.Category2
     collidesWith: Box.Category1 | Box.Category3
     property bool isPlayer: true
@@ -23,26 +25,33 @@ VisualizedBoxBody
         }
     }
 
+    onDodgeSpeedChanged: {
+        _updateVelocity();
+        if (dodgeSpeed > 0) dodgeT.start();
+    }
+    Timer { id: dodgeT; interval: 200; onTriggered: thePlayer.dodgeSpeed = 0; }
+
     function _onEndContact() { _updateVelocity(); }
-    onDesiredVeloXChanged: _updateVelocity()
-    onDesiredVeloYChanged: _updateVelocity()
-    onMaxVeloChanged: _updateVelocity()
+    on_DesiredVeloXChanged: _updateVelocity()
+    on_DesiredVeloYChanged: _updateVelocity()
+    onMoveSpeedChanged: _updateVelocity()
     function _updateVelocity() {
-        if (Math.abs(desiredVeloX) > 1)
-            desiredVeloX = desiredVeloX < 0 ? -maxVelo : maxVelo;
-        if (Math.abs(desiredVeloY) > 1)
-            desiredVeloY = desiredVeloY < 0 ? -maxVelo : maxVelo;
-        body.linearVelocity.x = desiredVeloX;
-        body.linearVelocity.y = desiredVeloY;
+        let speed = moveSpeed > dodgeSpeed ? moveSpeed : dodgeSpeed;
+        if (Math.abs(_desiredVeloX) > 1)
+            _desiredVeloX = _desiredVeloX < 0 ? -speed : speed;
+        if (Math.abs(_desiredVeloY) > 1)
+            _desiredVeloY = _desiredVeloY < 0 ? -speed : speed;
+        body.linearVelocity.x = _desiredVeloX;
+        body.linearVelocity.y = _desiredVeloY;
     }
 
-    function moveUp() { desiredVeloY = -maxVelo; }
-    function moveDown() { desiredVeloY = maxVelo; }
-    function moveLeft() { desiredVeloX = -maxVelo; }
-    function moveRight() { desiredVeloX = maxVelo; }
+    function moveUp() { _desiredVeloY = -moveSpeed; }
+    function moveDown() { _desiredVeloY = moveSpeed; }
+    function moveLeft() { _desiredVeloX = -moveSpeed; }
+    function moveRight() { _desiredVeloX = moveSpeed; }
 
-    function stopUp() { if (desiredVeloY < 0) desiredVeloY = 0; }
-    function stopDown() { if (desiredVeloY > 0) desiredVeloY = 0; }
-    function stopLeft() { if (desiredVeloX < 0) desiredVeloX = 0; }
-    function stopRight() { if (desiredVeloX > 0) desiredVeloX = 0; }
+    function stopUp() { if (_desiredVeloY < 0) _desiredVeloY = 0; }
+    function stopDown() { if (_desiredVeloY > 0) _desiredVeloY = 0; }
+    function stopLeft() { if (_desiredVeloX < 0) _desiredVeloX = 0; }
+    function stopRight() { if (_desiredVeloX > 0) _desiredVeloX = 0; }
 }

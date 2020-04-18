@@ -32,7 +32,12 @@ ClayWorld {
         anchors.fill: parent
 
         onButtonAPressedChanged: {
-            player.maxVelo = buttonAPressed ? 35 : 18;
+            player.moveSpeed = buttonAPressed ? 35 : 18;
+        }
+
+        onButtonBPressedChanged: {
+            let p = player;
+            if (buttonBPressed && p.dodgeSpeed < 75) p.dodgeSpeed = 75;
         }
 
         onAxisXChanged: {
