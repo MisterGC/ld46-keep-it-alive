@@ -6,6 +6,7 @@
         <file>GameEntity.qml</file>
         <file>Garden.qml</file>
         <file>Enemy.qml</file>
+        <file>EnemyMaster.qml</file>
         <file>Referee.qml</file>
         <file>Sandbox.qml</file>
         <file>StartScreen.qml</file>

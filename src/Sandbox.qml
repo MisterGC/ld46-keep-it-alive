@@ -111,6 +111,11 @@ ClayWorld {
         else if (isInstanceOf(obj, "Garden")) {
            theReferee.addGarden(obj);
         }
+
+    Component {id: theEnemyMasterComp; EnemyMaster {}}
+    onPolylineLoaded: {
+        let ent = theEnemyMasterComp.createObject(theWorld, {path: points});
+        entities.push(ent);
     }
 
     SoundEffect {
