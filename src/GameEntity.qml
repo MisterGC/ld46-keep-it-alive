@@ -11,6 +11,7 @@ VisualizedBoxBody
 
     property bool debug: false
     property string text: ""
+    property var gameWorld: theWorld
     Loader { sourceComponent: debug ? theDebugTxtComp : null }
     Component {
         id: theDebugTxtComp

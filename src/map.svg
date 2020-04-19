@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="90.879274"
-     inkscape:cy="356.10426"
+     inkscape:zoom="1.979899"
+     inkscape:cx="333.53656"
+     inkscape:cy="301.28159"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -55,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -74,8 +74,8 @@
          id="desc5900">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
     </rect>
     <rect
-       y="177.53166"
-       x="24.531097"
+       y="153.21013"
+       x="28.941044"
        height="3.7390227"
        width="3.5938382"
        id="rect5922"
@@ -152,46 +152,6 @@
        style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc5900-9-6">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="164.68065"
-       x="36.909817"
-       height="3.7390227"
-       width="3.5938382"
-       id="rect1682"
-       style="opacity:1;fill:#d45500;fill-opacity:1;stroke:none;stroke-width:0.12464929;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc1680">{&quot;component&quot;:&quot;Enemy.qml&quot;}</desc>
-    </rect>
-    <rect
-       style="opacity:1;fill:#d45500;fill-opacity:1;stroke:none;stroke-width:0.12464929;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1686"
-       width="3.5938382"
-       height="3.7390227"
-       x="36.531841"
-       y="134.065">
-      <desc
-         id="desc1684">{&quot;component&quot;:&quot;Enemy.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="103.54359"
-       x="37.004311"
-       height="3.7390227"
-       width="3.5938382"
-       id="rect1690"
-       style="opacity:1;fill:#d45500;fill-opacity:1;stroke:none;stroke-width:0.12464929;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc1688">{&quot;component&quot;:&quot;Enemy.qml&quot;}</desc>
-    </rect>
-    <rect
-       style="opacity:1;fill:#d45500;fill-opacity:1;stroke:none;stroke-width:0.12464929;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1694"
-       width="3.5938382"
-       height="3.7390227"
-       x="9.5065432"
-       y="130.66331">
-      <desc
-         id="desc1692">{&quot;component&quot;:&quot;Enemy.qml&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -273,5 +233,32 @@
       <desc
          id="desc5900-6-28-7-5">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 8.953529,175.65289 59.73474,-2.27179 -1.603618,-25.92514 19.243405,-3.47451 9.488068,-47.440337"
+       id="path867"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc">
+      <desc
+         id="desc869">{&quot;component&quot;:&quot;EnemyMaster.qml&quot;}</desc>
+    </path>
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path873"
+       d="M 160.89626,6.6049119 148.06731,40.681778 115.05953,62.464249 98.488817,68.344172 91.005272,49.501676"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
+      <desc
+         id="desc871">{&quot;component&quot;:&quot;EnemyMaster.qml&quot;}</desc>
+    </path>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 13.63075,10.881224 26.99421,6.68174 8.285362,20.847027 2.405424,31.805067 -30.33509,35.012322"
+       id="path881"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc">
+      <desc
+         id="desc879">{&quot;component&quot;:&quot;EnemyMaster.qml&quot;}</desc>
+    </path>
   </g>
 </svg>
