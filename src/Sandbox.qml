@@ -31,7 +31,6 @@ ClayWorld {
     onWorldAboutToBeCreated: {
         player = null;
         theWeather.running = false;
-        console.log("World about to be created")
     }
     onWorldCreated: {
 //        theGameCtrl.selectKeyboard(Qt.Key_Up,
@@ -43,7 +42,6 @@ ClayWorld {
         theGameCtrl.selectGamepad(0, true);
         theWorld.observedItem = player;
         theWeather.running = true;
-        console.log("World created!")
     }
 
     Weather {id: theWeather }
@@ -56,9 +54,9 @@ ClayWorld {
         Text {
             id: refereeSays
             anchors.centerIn: parent
-            text: Math.round(theReferee.gardenPercentage)
-                  + (player ? ("/" + theReferee.player.energy) : "")
-                  + "/" + theReferee.seasonPercentage
+            text: Math.round(parent.gardenPercentage)
+                  + (parent.player ? ("/" + parent.player.energy) : "")
+                  + "/" + parent.seasonPercentage
         }
     }
 
