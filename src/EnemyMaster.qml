@@ -54,6 +54,7 @@ Item {
             enemy.active =  Qt.binding( _ => {return gameWorld.running;} );
             _spawned.push(enemy);
         }
+        triggeredOnStart: true
     }
 
     Component { id: theSpawner; Enemy {} }
