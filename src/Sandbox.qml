@@ -25,6 +25,7 @@ ClayWorld {
         readonly property int naturalForce: Box.Category4
         readonly property int garden: Box.Category5
         readonly property int magicProtection: Box.Category6
+        readonly property int waypoint: Box.Category7
         readonly property int noCollision: Box.None
     }
 

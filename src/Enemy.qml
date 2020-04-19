@@ -12,7 +12,7 @@ GameEntity
     bullet: true
     sensor: true
     categories: collCat.enemy
-    collidesWith: collCat.player
+    collidesWith: collCat.player | collCat.waypoint
     debug: true
 
     Component.onCompleted: {
