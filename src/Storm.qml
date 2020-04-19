@@ -32,14 +32,5 @@ GameEntity
         repeat: true
     }
 
-    Component.onCompleted: {
-        for (let i=0; i<fixtures.length; ++i) {
-            let f = fixtures[i];
-            f.beginContact.connect(_onCollision);
-        }
-    }
-
-    function _onCollision(fixture) {
-    }
 }
 
