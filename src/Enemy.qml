@@ -14,17 +14,20 @@ GameEntity
     bullet: true
     sensor: true
     categories: collCat.enemy
-    collidesWith: collCat.player | collCat.waypoint
+    collidesWith: collCat.player | collCat.waypoint | collCat.garden
     property var wpPath: []
     property int _wpIndex: -1
     property real maxVelo: 10
 
     debug: true
+    text: theMunchTimer.running ? "Munch Time" : "Hunnngry"
+    signal attack(var damage)
 
     Component.onCompleted: {
         for (let i=0; i<fixtures.length; ++i) {
             let f = fixtures[i];
             f.beginContact.connect(_onCollision);
+            f.endContact.connect(_onEndContact);
         }
         _goForNextWp();
     }
@@ -33,7 +36,9 @@ GameEntity
         if (_wpIndex + 1 < wpPath.length)  {
             _wpIndex ++;
             let dest = wpPath[_wpIndex];
-            let v = Qt.vector2d(dest.x - x, dest.y - y);
+            let dX = dest.x + dest.width * .5 - (x + width * .5);
+            let dY = dest.y + dest.height * .5 - (y + height * .5);
+            let v = Qt.vector2d(dX, dY);
             let l = v.length();
             if (l > 1) {
                 v = v.times(maxVelo/l);
@@ -56,5 +61,22 @@ GameEntity
         else if (gameWorld.isInstanceOf(e, "Waypoint")) {
             _goForNextWp();
         }
+        else if (gameWorld.isInstanceOf(e, "Garden")) {
+            theMunchTimer.start();
+        }
+    }
+
+    function _onEndContact() {
+        var e = fixture.getBody().target;
+        if (gameWorld.isInstanceOf(e, "Garden")) {
+            theMunchTimer.stop();
+        }
+    }
+
+    Timer {
+        id: theMunchTimer
+        interval: 1000
+        onTriggered: attack(2);
+        repeat: true
     }
 }

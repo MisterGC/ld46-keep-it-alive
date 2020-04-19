@@ -20,7 +20,7 @@ GameEntity
     // Energy of the garden, if it is 0, the garden dead
     property int energy: maxEnergy
     // Protection decreases dealt damage
-    property int protection: 0
+    property real protection: 0
 
     text: energy + "/" + protection
 
@@ -41,6 +41,9 @@ GameEntity
                 protection = fixture.protection;
             }
         }
+        else if (theWorld.isInstanceOf(e, "Enemy")) {
+            e.attack.connect(_onAttack);
+        }
     }
 
     function _onEndContact(fixture) {
@@ -48,10 +51,13 @@ GameEntity
         if (theWorld.isInstanceOf(e, "Player")) {
             if (fixture.hasOwnProperty("protection")) protection = 0;
         }
+        else if (theWorld.isInstanceOf(e, "Enemy")) {
+            e.attack.disconnect(_onAttack);
+        }
     }
 
     function _onAttack(damage) {
-        let d = damage > protection ? damage - protection : 0;
+        let d = damage * ((protection > 0) ? protection : 1)
         energy -= d;
     }
 }

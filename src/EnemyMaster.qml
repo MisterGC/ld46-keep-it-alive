@@ -37,7 +37,7 @@ Item {
     Component { id: theWayPointComp; Waypoint {}}
     Timer {
         id: spawnTimer
-        interval: 3000
+        interval: 10000
         repeat: true
         onTriggered: {
             let enemy = theSpawner.createObject(gameWorld.coordSys,

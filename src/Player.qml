@@ -62,7 +62,7 @@ GameEntity
             sensor: true
             categories: collCat.magicProtection
             collidesWith: collCat.garden
-            property int protection: thePlayer.isProtecting ? 2 : 0
+            property real protection: thePlayer.isProtecting ? .5 : 0
         }
     }
 
