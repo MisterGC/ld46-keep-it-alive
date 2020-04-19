@@ -5,6 +5,9 @@
         <file>garden.png</file>
         <file>storm.png</file>
         <file>titlescreen.png</file>
+        <file>keeperdied.png</file>
+        <file>gardendied.png</file>
+        <file>youhavewon.png</file>
     </qresource>
 </RCC>
 

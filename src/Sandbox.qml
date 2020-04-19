@@ -18,7 +18,7 @@ ClayWorld {
     property var player: null
     //physicsDebugging: true
 
-    Rectangle {parent: coordSys; anchors.fill: parent; color: "#75ba37";}
+    Rectangle {parent: coordSys; anchors.fill: parent; color: "#acdc83";}
 
     QtObject {
         id: collCat
@@ -149,18 +149,28 @@ ClayWorld {
     }
 
     GameEnding {
+        id: theEnd
         referee: theReferee
         onVisibleChanged: {
-            if (visible) bgMusic.stop();
+            if (visible) {
+                bgMusic.stop();
+                delayReplayCtrls.start();
+            }
         }
 
-        Component.onCompleted: {
-            theGameCtrl.buttonAPressedChanged.connect(restartOnDemand)
-            theGameCtrl.buttonBPressedChanged.connect(restartOnDemand)
+        Timer {
+            id: delayReplayCtrls
+            interval: 2000
+            onTriggered: {
+                theGameCtrl.buttonAPressedChanged.connect(theEnd.restartOnDemand)
+                theGameCtrl.buttonBPressedChanged.connect(theEnd.restartOnDemand)
+            }
         }
 
         function restartOnDemand() {
             if (visible) {
+                theGameCtrl.buttonAPressedChanged.disconnect(theEnd.restartOnDemand)
+                theGameCtrl.buttonBPressedChanged.disconnect(theEnd.restartOnDemand)
                 map = "";
                 map = "map.svg";
                 visible = false;
