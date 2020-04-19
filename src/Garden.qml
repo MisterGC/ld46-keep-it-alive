@@ -4,10 +4,13 @@ import QtQuick 2.12
 import Box2D 2.0
 import Clayground.Physics 1.0
 import Clayground.ScalingCanvas 1.0
+import QtGraphicalEffects 1.12
 
 GameEntity
 {
     id: theGarden
+
+    source: gameWorld.resource("visual/garden.png");
     bodyType: Body.Static
     categories: collCat.garden
     collidesWith: collCat.player |
@@ -23,6 +26,10 @@ GameEntity
     property real protection: 0
 
     text: energy + "/" + protection
+    GlowEffect {
+        visible:  theGarden.protection > 0
+        image: theGarden.image
+    }
 
     Component.onCompleted: {
         for (let i=0; i<fixtures.length; ++i) {

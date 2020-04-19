@@ -2,6 +2,9 @@
     <qresource prefix="/visual">
         <file>enemy.png</file>
         <file>player.png</file>
+        <file>garden.png</file>
+        <file>storm.png</file>
+        <file>titlescreen.png</file>
     </qresource>
 </RCC>
 

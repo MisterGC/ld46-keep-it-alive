@@ -27,8 +27,8 @@ Item {
                                                   pixelPerUnit: theWorld.pixelPerUnit,
                                                   xWu: x,
                                                   yWu: y,
-                                                  widthWu: 50,
-                                                  heightWu: 50
+                                                  widthWu: 75,
+                                                  heightWu: 37
                                               });
             theWeather._destroyStorms.connect(storm.destroy);
         }

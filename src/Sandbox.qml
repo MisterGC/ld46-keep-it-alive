@@ -18,6 +18,8 @@ ClayWorld {
     property var player: null
     //physicsDebugging: true
 
+    Rectangle {parent: coordSys; anchors.fill: parent; color: "#75ba37";}
+
     QtObject {
         id: collCat
         readonly property int staticGeo: Box.Category1
@@ -107,7 +109,6 @@ ClayWorld {
     onObjectCreated: {
         if (isInstanceOf(obj, "Player")) {
             player = obj;
-            player.source = theWorld.resource("visual/player.png");
         }
         else if (isInstanceOf(obj, "Garden")) {
            theReferee.addGarden(obj);
@@ -127,14 +128,12 @@ ClayWorld {
 
     SoundEffect {
         id: bgMusic
-        //TODO Replace music place-holder and react. play
-        //Component.onCompleted: play();
         source: theWorld.resource("sound/bgmusic.wav")
         loops: SoundEffect.Infinite
     }
 
     StartScreen {
-       visible: true
+        visible: true
         Component.onCompleted: {
             theGameCtrl.buttonAPressedChanged.connect(startOnDemand)
             theGameCtrl.buttonBPressedChanged.connect(startOnDemand)
@@ -144,12 +143,17 @@ ClayWorld {
                 map = "";
                 map = "map.svg";
                 visible = false;
+                bgMusic.play();
             }
         }
     }
 
     GameEnding {
         referee: theReferee
+        onVisibleChanged: {
+            if (visible) bgMusic.stop();
+        }
+
         Component.onCompleted: {
             theGameCtrl.buttonAPressedChanged.connect(restartOnDemand)
             theGameCtrl.buttonBPressedChanged.connect(restartOnDemand)
@@ -160,6 +164,7 @@ ClayWorld {
                 map = "";
                 map = "map.svg";
                 visible = false;
+                bgMusic.play();
             }
         }
     }

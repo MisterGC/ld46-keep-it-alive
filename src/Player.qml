@@ -11,6 +11,7 @@ GameEntity
     bodyType: Body.Dynamic
     bullet: true
 
+    source: theWorld.resource("visual/player.png");
     property int energy: 3
 
     property real moveSpeed: 25
@@ -44,7 +45,7 @@ GameEntity
         id: protectionRangeVisu
         opacity: .2
         color: "red"
-        visible: thePlayer.isProtecting
+        visible: false
         property int scaleFac: thePlayer.isProtecting ? 10 : 1
         x: -.5 * (width - thePlayer.width)
         y: -.5 * (width - thePlayer.width)
@@ -64,6 +65,11 @@ GameEntity
             collidesWith: collCat.garden
             property real protection: thePlayer.isProtecting ? .5 : 0
         }
+    }
+    GlowEffect {
+        visible:  thePlayer.isProtecting || thePlayer.isDodging
+        image: thePlayer.image
+        color: thePlayer.isProtecting ? "#00dce7" : "#e79100"
     }
 
     onDodgeSpeedChanged: {

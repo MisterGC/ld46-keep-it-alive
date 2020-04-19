@@ -8,13 +8,15 @@ import Clayground.ScalingCanvas 1.0
 GameEntity
 {
     id: theStorm
+
+    source: gameWorld.resource("visual/storm.png");
     bodyType: Body.Dynamic
     categories: collCat.naturalForce
     collidesWith: collCat.garden
     debug: true
     color: "grey"
-    opacity: .5
     sensor: true
+    opacity: 0.9
     property int duration: 1000
 
     signal attack(var damage)

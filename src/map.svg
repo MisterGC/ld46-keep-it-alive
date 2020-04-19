@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="333.53656"
-     inkscape:cy="301.28159"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="365.55732"
+     inkscape:cy="462.77675"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -74,12 +74,12 @@
          id="desc5900">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
     </rect>
     <rect
-       y="153.21013"
+       y="150.22101"
        x="28.941044"
-       height="3.7390227"
-       width="3.5938382"
+       height="6.7281399"
+       width="4.855391"
        id="rect5922"
-       style="opacity:1;fill:#0088aa;fill-opacity:1;stroke:none;stroke-width:0.12464929;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="opacity:1;fill:#0088aa;fill-opacity:1;stroke:none;stroke-width:0.12464931;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc5920">{&quot;component&quot;:&quot;Player.qml&quot;}</desc>
     </rect>
@@ -114,124 +114,14 @@
          id="desc5900-6-2">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
     </rect>
     <rect
-       y="116.61005"
-       x="38.506016"
-       height="13.29199"
-       width="21.734243"
-       id="rect2172-5-2-4"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc5900-6-28-7">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="142.57834"
-       x="10.423896"
-       height="28.7293"
-       width="12.792088"
-       id="rect2172-5-2-15"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.40355438;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc5900-6-28-5">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="142.87698"
-       x="37.936886"
-       height="11.973398"
-       width="22.211039"
+       y="72.406593"
+       x="77.492775"
+       height="25.355844"
+       width="40.677826"
        id="rect2172-5-2-47"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502046;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc5900-6-28-65">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="95.927979"
-       x="11.42837"
-       height="24.880625"
-       width="12.210918"
-       id="rect2172-2-0"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc5900-9-6">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1704"
-       width="12.210918"
-       height="24.880625"
-       x="27.464542"
-       y="33.921417">
-      <desc
-         id="desc1702">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="48.0867"
-       x="148.8049"
-       height="24.880625"
-       width="12.210918"
-       id="rect1708"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc1706">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1712"
-       width="12.210918"
-       height="24.880625"
-       x="125.81973"
-       y="123.45669">
-      <desc
-         id="desc1710">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="78.822708"
-       x="95.885544"
-       height="24.880625"
-       width="12.210918"
-       id="rect1716"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.25966841;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc1714">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="39.603157"
-       x="79.564476"
-       height="13.291991"
-       width="21.734243"
-       id="rect2172-5-2-4-0"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc5900-6-28-7-8">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="105.61877"
-       x="158.14171"
-       height="13.291991"
-       width="21.734243"
-       id="rect2172-5-2-4-5"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc5900-6-28-7-0">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="158.53767"
-       x="87.849831"
-       height="13.291991"
-       width="21.734243"
-       id="rect2172-5-2-4-6"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc5900-6-28-7-4">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
-    </rect>
-    <rect
-       y="12.876213"
-       x="120.45671"
-       height="13.291991"
-       width="21.734243"
-       id="rect2172-5-2-4-62"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24934484;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
-      <desc
-         id="desc5900-6-28-7-5">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -246,19 +136,79 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path873"
-       d="M 160.89626,6.6049119 148.06731,40.681778 115.05953,62.464249 98.488817,68.344172 91.005272,49.501676"
+       d="M 160.89626,6.6049119 148.06731,40.681778 118.26676,52.575276 91.27254,51.506192 87.530768,35.603661"
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
       <desc
          id="desc871">{&quot;component&quot;:&quot;EnemyMaster.qml&quot;}</desc>
     </path>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 13.63075,10.881224 26.99421,6.68174 8.285362,20.847027 2.405424,31.805067 -30.33509,35.012322"
+       d="m 24.85607,15.424806 26.99421,6.68174 8.285362,20.847027 2.405424,31.805067 -8.953528,26.99424"
        id="path881"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc">
       <desc
          id="desc879">{&quot;component&quot;:&quot;EnemyMaster.qml&quot;}</desc>
     </path>
+    <rect
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2867"
+       width="40.677826"
+       height="25.355844"
+       x="67.336533"
+       y="11.73641">
+      <desc
+         id="desc2865">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       y="109.28979"
+       x="138.43022"
+       height="25.355844"
+       width="40.677826"
+       id="rect2871"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc2869">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2875"
+       width="40.677826"
+       height="25.355844"
+       x="11.209924"
+       y="91.115463">
+      <desc
+         id="desc2873">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       y="45.412376"
+       x="9.0717678"
+       height="25.355844"
+       width="40.677826"
+       id="rect2879"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc2877">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2883"
+       width="40.677826"
+       height="25.355844"
+       x="99.408867"
+       y="145.37119">
+      <desc
+         id="desc2881">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
+    <rect
+       y="55.835892"
+       x="141.90472"
+       height="25.355844"
+       width="40.677826"
+       id="rect2887"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+      <desc
+         id="desc2885">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+    </rect>
   </g>
 </svg>
