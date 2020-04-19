@@ -4,19 +4,19 @@ import QtQuick 2.12
 Item {
     id: theWeather
 
-    property bool running: false
     signal _destroyStorms()
-    onRunningChanged: {
-        if (running) theTimer.start()
+    onEnabledChanged: {
+        if (enabled)
+            theTimer.start();
         else {
-            theTimer.stop()
-            _destroyStorms()
+            theTimer.stop();
+            _destroyStorms();
         }
     }
 
     Timer {
         id: theTimer
-        interval: 2000
+        interval: 4000
         onTriggered: {
             let x = Math.random() * theWorld.worldXMax
             let y = Math.random() * theWorld.worldYMax

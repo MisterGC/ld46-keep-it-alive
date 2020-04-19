@@ -13,6 +13,7 @@ ClayWorld {
     pixelPerUnit: height/70
     gravity: Qt.point(0,0)
     timeStep: 1/60.0
+    running: false
 
     property var player: null
     //physicsDebugging: true
@@ -30,8 +31,8 @@ ClayWorld {
     }
 
     onWorldAboutToBeCreated: {
+        running = false;
         player = null;
-        theWeather.running = false;
     }
     onWorldCreated: {
 //        theGameCtrl.selectKeyboard(Qt.Key_Up,
@@ -42,10 +43,10 @@ ClayWorld {
 //                                   Qt.Key_S);
         theGameCtrl.selectGamepad(0, true);
         theWorld.observedItem = player;
-        theWeather.running = true;
+        theWorld.running = true;
     }
 
-    Weather {id: theWeather }
+    Weather {id: theWeather; enabled: theWorld.running }
     Referee {
         id: theReferee
         anchors.horizontalCenter: parent.horizontalCenter
@@ -66,14 +67,16 @@ ClayWorld {
         id: theGameCtrl
         anchors.fill: parent
 
+        property bool inGameCtrlEnabled: theWorld.running && theWorld.player
+
         onButtonAPressedChanged: {
-            if (!player) return;
+            if (!inGameCtrlEnabled) return;
             if (player.isProtecting) return;
             player.moveSpeed = buttonAPressed ? 35 : 18;
         }
 
         onButtonBPressedChanged: {
-            if (!player) return;
+            if (!inGameCtrlEnabled) return;
             let p = player;
             if (buttonBPressed) {
                 if (p.desiresToMove) p.dodgeSpeed = 75;
@@ -84,14 +87,14 @@ ClayWorld {
         }
 
         onAxisXChanged: {
-            if (!player) return;
+            if (!inGameCtrlEnabled) return;
             if (player.isProtecting) return;
             if (axisX > 0) player.moveRight();
             else if (axisX < 0) player.moveLeft();
             else { player.stopLeft(); player.stopRight();}
         }
         onAxisYChanged: {
-            if (!player) return;
+            if (!inGameCtrlEnabled) return;
             if (player.isProtecting) return;
             if (axisY > 0) player.moveUp();
             else if (axisY < 0) player.moveDown();
@@ -106,16 +109,19 @@ ClayWorld {
             player = obj;
             player.source = theWorld.resource("visual/player.png");
         }
-        else if (isInstanceOf(obj, "Enemy")) {
-            obj.source = theWorld.resource("visual/enemy.png");
-        }
         else if (isInstanceOf(obj, "Garden")) {
            theReferee.addGarden(obj);
         }
+    }
 
     Component {id: theEnemyMasterComp; EnemyMaster {}}
     onPolylineLoaded: {
-        let ent = theEnemyMasterComp.createObject(theWorld, {path: points});
+        let ent = theEnemyMasterComp.createObject(theWorld,
+                                                  {
+                                                      path: points,
+                                                      enabled: theWorld.running
+                                                  });
+        ent.enabled = Qt.binding( _ => {return theWorld.running;} );
         entities.push(ent);
     }
 
