@@ -27,23 +27,7 @@ Item {
         }
     }
 
-    Component {
-        id: theWayPointComp
-        PhysicsItem {
-            id: thePhyItem
-
-            fixtures: [
-                Box {
-                    sensor: true
-                    width: thePhyItem.width
-                    height: thePhyItem.height
-                    categories: collCat.waypoint
-                    collidesWith: collCat.enemy
-                }
-            ]
-
-        }
-    }
+    Component { id: theWayPointComp; Waypoint {}}
 
     Timer {
         Component.onCompleted: start()

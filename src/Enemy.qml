@@ -13,6 +13,8 @@ GameEntity
     sensor: true
     categories: collCat.enemy
     collidesWith: collCat.player | collCat.waypoint
+    property var wpPath: []
+    property var _wpIndex: 0
     debug: true
 
     Component.onCompleted: {
@@ -27,6 +29,9 @@ GameEntity
         if (theWorld.isInstanceOf(e, "Player")) {
             if (e.isDodging) theEnemy.destroy();
             else e.energy -= 1;
+        }
+        else if (theWorld.isInstanceOf(e, "Waypoint")) {
+            text = "At a waypoint!";
         }
     }
 
