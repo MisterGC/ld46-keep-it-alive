@@ -33,17 +33,18 @@ ClayWorld {
     }
 
     onWorldAboutToBeCreated: {
+        if (map === "") return;
         running = false;
         player = null;
     }
     onWorldCreated: {
+        if (map === "") return;
 //        theGameCtrl.selectKeyboard(Qt.Key_Up,
 //                                   Qt.Key_Down,
 //                                   Qt.Key_Left,
 //                                   Qt.Key_Right,
 //                                   Qt.Key_A,
 //                                   Qt.Key_S);
-        theGameCtrl.selectGamepad(0, true);
         theWorld.observedItem = player;
         theWorld.running = true;
     }
@@ -71,21 +72,23 @@ ClayWorld {
 
         property bool inGameCtrlEnabled: theWorld.running && theWorld.player
 
+        Component.onCompleted: selectGamepad(0, true);
+
         onButtonAPressedChanged: {
             if (!inGameCtrlEnabled) return;
-            if (player.isProtecting) return;
-            player.moveSpeed = buttonAPressed ? 35 : 18;
+            let p = player;
+            if (!p.desiresToMove) {
+                if (buttonAPressed) p.isProtecting = true;
+                else p.isProtecting = false;
+            }
         }
 
         onButtonBPressedChanged: {
             if (!inGameCtrlEnabled) return;
+            if (player.isProtecting) return;
             let p = player;
-            if (buttonBPressed) {
+            if (buttonBPressed)
                 if (p.desiresToMove) p.dodgeSpeed = 75;
-                else p.isProtecting = true;
-            }
-            else
-                p.isProtecting = false;
         }
 
         onAxisXChanged: {
@@ -154,6 +157,7 @@ ClayWorld {
         onVisibleChanged: {
             if (visible) {
                 bgMusic.stop();
+                theWorld.running = false
                 delayReplayCtrls.start();
             }
         }

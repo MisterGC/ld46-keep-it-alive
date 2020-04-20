@@ -61,6 +61,7 @@ Item {
 
 
     ScalingPoly {
+        visible: false
         canvas: gameWorld
         strokeStyle: ShapePath.DashLine
         dashPattern: [ 1, 4 ]

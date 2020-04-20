@@ -18,6 +18,7 @@ GameEntity
     sensor: true
     opacity: 0.9
     property int duration: 1000
+    z: 99
 
     signal attack(var damage)
 
@@ -29,7 +30,7 @@ GameEntity
 
     Timer {
         interval: 1000
-        onTriggered: attack(2);
+        onTriggered: attack(20);
         Component.onCompleted: start()
         repeat: true
     }

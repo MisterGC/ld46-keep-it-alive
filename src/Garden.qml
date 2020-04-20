@@ -10,7 +10,9 @@ GameEntity
 {
     id: theGarden
 
-    source: gameWorld.resource("visual/garden.png");
+    source: energyPercentage > 0.75 ? gameWorld.resource("visual/garden.png")
+            : (energyPercentage > 0.33 ? gameWorld.resource("visual/gardend1.png")
+                                       : gameWorld.resource("visual/gardend2.png"))
     bodyType: Body.Static
     categories: collCat.garden
     collidesWith: collCat.player |
@@ -22,6 +24,7 @@ GameEntity
     property int maxEnergy: widthWu * heightWu
     // Energy of the garden, if it is 0, the garden dead
     property int energy: maxEnergy
+    property real energyPercentage: (energy * 1.0)/maxEnergy
     // Protection decreases dealt damage
     property real protection: 0
 
@@ -65,6 +68,8 @@ GameEntity
 
     function _onAttack(damage) {
         let d = damage * ((protection > 0) ? protection : 1)
-        energy -= d;
+        if (energy > 0) energy -= d;
+        if (energy < 0) energy = 0;
+
     }
 }

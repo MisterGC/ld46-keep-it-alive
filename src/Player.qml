@@ -13,9 +13,9 @@ GameEntity
     bullet: true
 
     source: theWorld.resource("visual/player.png");
-    property int energy: 3
+    property int energy: 4
 
-    property real moveSpeed: 25
+    property real moveSpeed: 35
     property real dodgeSpeed: 0
     property real _desiredVeloX: 0
     property real _desiredVeloY: 0
