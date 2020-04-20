@@ -53,6 +53,8 @@ GameEntity
             let f = fixtures[i];
             f.endContact.connect(_onEndContact);
         }
+        fixture.height = Qt.binding( _ => {return .5 * thePlayer.height;} );
+        fixture.y = Qt.binding( _ => {return .5 * thePlayer.height;} );
         let obj = protectionRange.createObject(thePlayer,{});
         body.addFixture(obj);
     }
