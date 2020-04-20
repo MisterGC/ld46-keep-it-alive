@@ -1,6 +1,7 @@
 // (c) serein.pfeiffer@gmail.com - zlib license, see "LICENSE" file
 
 import QtQuick 2.12
+import QtMultimedia 5.12
 import Box2D 2.0
 import Clayground.Physics 1.0
 import Clayground.ScalingCanvas 1.0
@@ -24,7 +25,22 @@ GameEntity
     property bool isProtecting: false
     // Workaround to trigger collision checks even if player doesn't
     // move between triggering protections two time
-    onIsProtectingChanged: { awake = false; awake = true; }
+    onIsProtectingChanged: {
+        awake = false; awake = true;
+        if (isProtecting) protectSound.play();
+        else protectSound.stop();
+    }
+    SoundEffect {
+        id: protectSound
+        source: theWorld.resource("sound/protecting.wav")
+        loops: SoundEffect.Infinite
+    }
+    onIsDodgingChanged: if (isDodging) dodgeSound.play();
+    SoundEffect {
+        id: dodgeSound
+        source: theWorld.resource("sound/dodge.wav")
+        volume: .5
+    }
 
     debug: true
     text: energy > 0 ? "♥".repeat(energy) : "☠"

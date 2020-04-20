@@ -4,6 +4,7 @@ import QtQuick 2.12
 import Box2D 2.0
 import Clayground.Physics 1.0
 import Clayground.ScalingCanvas 1.0
+import QtMultimedia 5.12
 
 GameEntity
 {
@@ -76,7 +77,16 @@ GameEntity
     Timer {
         id: theMunchTimer
         interval: 1000
-        onTriggered: attack(2);
+        onTriggered: attack(5);
         repeat: true
+        onRunningChanged: {
+            if (running) munchSound.play();
+            else munchSound.stop();
+        }
+    }
+
+    SoundEffect {
+        id: munchSound
+        source: theWorld.resource("sound/munching.wav")
     }
 }
