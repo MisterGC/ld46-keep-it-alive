@@ -39,12 +39,6 @@ ClayWorld {
     }
     onWorldCreated: {
         if (map === "") return;
-//        theGameCtrl.selectKeyboard(Qt.Key_Up,
-//                                   Qt.Key_Down,
-//                                   Qt.Key_Left,
-//                                   Qt.Key_Right,
-//                                   Qt.Key_A,
-//                                   Qt.Key_S);
         theWorld.observedItem = player;
         theWorld.running = true;
     }
@@ -72,7 +66,14 @@ ClayWorld {
 
         property bool inGameCtrlEnabled: theWorld.running && theWorld.player
 
-        Component.onCompleted: selectGamepad(0, true);
+        Component.onCompleted: {
+            theGameCtrl.selectKeyboard(Qt.Key_Up,
+                                       Qt.Key_Down,
+                                       Qt.Key_Left,
+                                       Qt.Key_Right,
+                                       Qt.Key_A,
+                                       Qt.Key_S);
+        }
 
         onButtonAPressedChanged: {
             if (!inGameCtrlEnabled) return;
