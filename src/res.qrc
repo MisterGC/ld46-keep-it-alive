@@ -12,6 +12,7 @@
         <file>Sandbox.qml</file>
         <file>StartScreen.qml</file>
         <file>Storm.qml</file>
+        <file>Tile.qml</file>
         <file>Weather.qml</file>
         <file>Wall.qml</file>
         <file>Waypoint.qml</file>
