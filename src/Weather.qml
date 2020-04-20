@@ -5,6 +5,7 @@ Item {
     id: theWeather
 
     signal _destroyStorms()
+    enabled: false
     onEnabledChanged: {
         if (enabled)
             theTimer.start();
@@ -16,23 +17,26 @@ Item {
 
     Timer {
         id: theTimer
-        interval: 4000
+        interval: 20000
         onTriggered: {
-            let x = Math.random() * theWorld.worldXMax
-            let y = Math.random() * theWorld.worldYMax
+            let wWu = 75;
+            let hWu = 37;
+            let x = wWu + Math.random() * (theWorld.worldXMax - 2*wWu);
+            let y = hWu + Math.random() * (theWorld.worldYMax - 2*hWu);
             let storm = theStorm.createObject(theWorld.coordSys,
                                               {
                                                   world: theWorld.physics,
-                                                  duration: interval,
+                                                  duration: 8000 + Math.random() * 7000,
                                                   pixelPerUnit: theWorld.pixelPerUnit,
                                                   xWu: x,
                                                   yWu: y,
-                                                  widthWu: 50,
-                                                  heightWu: 50
+                                                  widthWu: 75,
+                                                  heightWu: 37
                                               });
             theWeather._destroyStorms.connect(storm.destroy);
         }
         repeat: true
+        triggeredOnStart: true
     }
 
     Component { id: theStorm; Storm {} }

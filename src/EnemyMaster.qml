@@ -54,12 +54,14 @@ Item {
             enemy.active =  Qt.binding( _ => {return gameWorld.running;} );
             _spawned.push(enemy);
         }
+        triggeredOnStart: true
     }
 
     Component { id: theSpawner; Enemy {} }
 
 
     ScalingPoly {
+        visible: false
         canvas: gameWorld
         strokeStyle: ShapePath.DashLine
         dashPattern: [ 1, 4 ]

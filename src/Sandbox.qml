@@ -18,6 +18,8 @@ ClayWorld {
     property var player: null
     //physicsDebugging: true
 
+    Rectangle {parent: coordSys; anchors.fill: parent; color: "#acdc83";}
+
     QtObject {
         id: collCat
         readonly property int staticGeo: Box.Category1
@@ -31,17 +33,12 @@ ClayWorld {
     }
 
     onWorldAboutToBeCreated: {
+        if (map === "") return;
         running = false;
         player = null;
     }
     onWorldCreated: {
-//        theGameCtrl.selectKeyboard(Qt.Key_Up,
-//                                   Qt.Key_Down,
-//                                   Qt.Key_Left,
-//                                   Qt.Key_Right,
-//                                   Qt.Key_A,
-//                                   Qt.Key_S);
-        theGameCtrl.selectGamepad(0, true);
+        if (map === "") return;
         theWorld.observedItem = player;
         theWorld.running = true;
     }
@@ -69,21 +66,30 @@ ClayWorld {
 
         property bool inGameCtrlEnabled: theWorld.running && theWorld.player
 
+        Component.onCompleted: {
+            theGameCtrl.selectKeyboard(Qt.Key_Up,
+                                       Qt.Key_Down,
+                                       Qt.Key_Left,
+                                       Qt.Key_Right,
+                                       Qt.Key_A,
+                                       Qt.Key_S);
+        }
+
         onButtonAPressedChanged: {
             if (!inGameCtrlEnabled) return;
-            if (player.isProtecting) return;
-            player.moveSpeed = buttonAPressed ? 35 : 18;
+            let p = player;
+            if (!p.desiresToMove) {
+                if (buttonAPressed) p.isProtecting = true;
+                else p.isProtecting = false;
+            }
         }
 
         onButtonBPressedChanged: {
             if (!inGameCtrlEnabled) return;
+            if (player.isProtecting) return;
             let p = player;
-            if (buttonBPressed) {
+            if (buttonBPressed)
                 if (p.desiresToMove) p.dodgeSpeed = 75;
-                else p.isProtecting = true;
-            }
-            else
-                p.isProtecting = false;
         }
 
         onAxisXChanged: {
@@ -107,7 +113,6 @@ ClayWorld {
     onObjectCreated: {
         if (isInstanceOf(obj, "Player")) {
             player = obj;
-            player.source = theWorld.resource("visual/player.png");
         }
         else if (isInstanceOf(obj, "Garden")) {
            theReferee.addGarden(obj);
@@ -127,14 +132,12 @@ ClayWorld {
 
     SoundEffect {
         id: bgMusic
-        //TODO Replace music place-holder and react. play
-        //Component.onCompleted: play();
         source: theWorld.resource("sound/bgmusic.wav")
         loops: SoundEffect.Infinite
     }
 
     StartScreen {
-       visible: true
+        visible: true
         Component.onCompleted: {
             theGameCtrl.buttonAPressedChanged.connect(startOnDemand)
             theGameCtrl.buttonBPressedChanged.connect(startOnDemand)
@@ -144,22 +147,39 @@ ClayWorld {
                 map = "";
                 map = "map.svg";
                 visible = false;
+                bgMusic.play();
             }
         }
     }
 
     GameEnding {
+        id: theEnd
         referee: theReferee
-        Component.onCompleted: {
-            theGameCtrl.buttonAPressedChanged.connect(restartOnDemand)
-            theGameCtrl.buttonBPressedChanged.connect(restartOnDemand)
+        onVisibleChanged: {
+            if (visible) {
+                bgMusic.stop();
+                theWorld.running = false
+                delayReplayCtrls.start();
+            }
+        }
+
+        Timer {
+            id: delayReplayCtrls
+            interval: 2000
+            onTriggered: {
+                theGameCtrl.buttonAPressedChanged.connect(theEnd.restartOnDemand)
+                theGameCtrl.buttonBPressedChanged.connect(theEnd.restartOnDemand)
+            }
         }
 
         function restartOnDemand() {
             if (visible) {
+                theGameCtrl.buttonAPressedChanged.disconnect(theEnd.restartOnDemand)
+                theGameCtrl.buttonBPressedChanged.disconnect(theEnd.restartOnDemand)
                 map = "";
                 map = "map.svg";
                 visible = false;
+                bgMusic.play();
             }
         }
     }

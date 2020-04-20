@@ -10,11 +10,14 @@ Rectangle {
     visible: false
     anchors.fill: parent
 
-    Text {
+    Image {
+        source: theWorld.resource("visual/titlescreen.png");
+        height: parent.height
+        width: (sourceSize.width / sourceSize.height) * height
         anchors.centerIn: parent
-        font.pixelSize: parent.height * .07
-        text: "Welcome to the Game"
     }
+
+    color: "#c7fcff"
 }
 
 

@@ -4,10 +4,15 @@ import QtQuick 2.12
 import Box2D 2.0
 import Clayground.Physics 1.0
 import Clayground.ScalingCanvas 1.0
+import QtGraphicalEffects 1.12
 
 GameEntity
 {
     id: theGarden
+
+    source: energyPercentage > 0.75 ? gameWorld.resource("visual/garden.png")
+            : (energyPercentage > 0.33 ? gameWorld.resource("visual/gardend1.png")
+                                       : gameWorld.resource("visual/gardend2.png"))
     bodyType: Body.Static
     categories: collCat.garden
     collidesWith: collCat.player |
@@ -19,10 +24,15 @@ GameEntity
     property int maxEnergy: widthWu * heightWu
     // Energy of the garden, if it is 0, the garden dead
     property int energy: maxEnergy
+    property real energyPercentage: (energy * 1.0)/maxEnergy
     // Protection decreases dealt damage
     property real protection: 0
 
     text: energy + "/" + protection
+    GlowEffect {
+        visible:  theGarden.protection > 0
+        image: theGarden.image
+    }
 
     Component.onCompleted: {
         for (let i=0; i<fixtures.length; ++i) {
@@ -58,6 +68,8 @@ GameEntity
 
     function _onAttack(damage) {
         let d = damage * ((protection > 0) ? protection : 1)
-        energy -= d;
+        if (energy > 0) energy -= d;
+        if (energy < 0) energy = 0;
+
     }
 }

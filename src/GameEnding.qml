@@ -14,22 +14,24 @@ Rectangle {
         referee.seasonEnded.connect(onSeasonEnded);
     }
 
-    function onGardenDied() {showEnd("Garden died!");}
-    function onPlayerDied()  {showEnd("Player died!");}
-    function onSeasonEnded()  {showEnd("Season ended!");}
+    function onGardenDied() {showEnd("gardendied", "#95a3a3");}
+    function onPlayerDied()  {showEnd("keeperdied", "#9291a3");}
+    function onSeasonEnded()  {showEnd("youhavewon", "#d8c371")}
 
-    function showEnd(txt) {
+    function showEnd(img, bgColor) {
         if (!visible) {
-            theEndTxt.text = txt;
+            theImage.source = theWorld.resource("visual/" + img + ".png");
+            color = bgColor;
             visible = true;
         }
     }
 
-    Text {
-        id: theEndTxt
+    Image {
+        id: theImage
+        source: ""
+        height: parent.height
+        width: (sourceSize.width / sourceSize.height) * height
         anchors.centerIn: parent
-        font.pixelSize: parent.height * .1
-        text: "The Game ends ..."
     }
 }
 
