@@ -21,8 +21,8 @@ Item {
         onTriggered: {
             let wWu = 75;
             let hWu = 37;
-            let x = wWu + Math.random() * (theWorld.worldXMax - 2*wWu);
-            let y = hWu + Math.random() * (theWorld.worldYMax - 2*hWu);
+            let x = Math.random() * (theWorld.worldXMax - wWu);
+            let y = Math.random() * (theWorld.worldYMax - hWu);
             let storm = theStorm.createObject(theWorld.coordSys,
                                               {
                                                   world: theWorld.physics,
