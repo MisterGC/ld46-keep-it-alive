@@ -10,9 +10,9 @@ GameEntity
 {
     id: theGarden
 
-    source: energyPercentage > 0.75 ? gameWorld.resource("visual/garden.png")
-            : (energyPercentage > 0.33 ? gameWorld.resource("visual/gardend1.png")
-                                       : gameWorld.resource("visual/gardend2.png"))
+    readonly property string _baseimg: energyPercentage > 0.75 ? "garden"
+            : (energyPercentage > 0.33 ? "gardend1" : "gardend2")
+    source:  gameWorld.resource("visual/" + _baseimg + "low.png")
     bodyType: Body.Static
     categories: collCat.garden
     collidesWith: collCat.player |
@@ -32,6 +32,16 @@ GameEntity
     GlowEffect {
         visible:  theGarden.protection > 0
         image: theGarden.image
+    }
+
+    Image {
+        source:  gameWorld.resource("visual/" + _baseimg + "up.png")
+        parent: theGarden.parent
+        x: theGarden.x
+        y: theGarden.y - height
+        width: theGarden.width
+        height: theGarden.height * 1.21
+        z: 99
     }
 
     Component.onCompleted: {
