@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="-204.18053"
-     inkscape:cy="266.47633"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="-406.52638"
+     inkscape:cy="83.384114"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -104,62 +104,62 @@
          id="desc5900-6-2">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
     </rect>
     <rect
-       y="69.285309"
+       y="83.67308"
        x="78.294586"
-       height="25.355844"
+       height="11.41013"
        width="40.677826"
        id="rect2172-5-2-47"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc5900-6-28-65">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2867"
        width="40.677826"
-       height="25.355844"
+       height="11.41013"
        x="19.228018"
-       y="26.789452">
+       y="39.679092">
       <desc
          id="desc2865">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2875"
        width="40.677826"
-       height="25.355844"
+       height="11.41013"
        x="17.891663"
-       y="108.57394">
+       y="122.51965">
       <desc
          id="desc2873">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
-       y="68.750832"
+       y="83.432564"
        x="18.69347"
-       height="25.355844"
+       height="11.41013"
        width="40.677826"
        id="rect2879"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc2877">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect2883"
        width="40.677826"
-       height="25.355844"
+       height="11.41013"
        x="78.027306"
-       y="108.57394">
+       y="122.51965">
       <desc
          id="desc2881">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
     <rect
-       y="27.858543"
+       y="40.160179"
        x="78.561844"
-       height="25.355844"
+       height="11.41013"
        width="40.677826"
        id="rect2887"
-       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
+       style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
          id="desc2885">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
     </rect>
