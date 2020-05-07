@@ -54,24 +54,24 @@ GameEntity
 
     function _onBeginContact(fixture) {
         var e = fixture.getBody().target;
-        if (theWorld.isInstanceOf(e, "Storm"))
+        if (e instanceof Storm)
             e.attack.connect(_onAttack)
-        else if (theWorld.isInstanceOf(e, "Player")) {
+        else if (e instanceof Player) {
             if (fixture.hasOwnProperty("protection")) {
                 protection = fixture.protection;
             }
         }
-        else if (theWorld.isInstanceOf(e, "Enemy")) {
+        else if (e instanceof Enemy) {
             e.attack.connect(_onAttack);
         }
     }
 
     function _onEndContact(fixture) {
         var e = fixture.getBody().target;
-        if (theWorld.isInstanceOf(e, "Player")) {
+        if (e instanceof Player) {
             if (fixture.hasOwnProperty("protection")) protection = 0;
         }
-        else if (theWorld.isInstanceOf(e, "Enemy")) {
+        else if (e instanceof Enemy) {
             e.attack.disconnect(_onAttack);
         }
     }

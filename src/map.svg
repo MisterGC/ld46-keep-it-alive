@@ -71,7 +71,7 @@
        id="rect2172"
        style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.34455863;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc5900">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
+         id="desc5900">{&quot;component&quot;:&quot;Wall&quot;}</desc>
     </rect>
     <rect
        y="0.24902308"
@@ -81,7 +81,7 @@
        id="rect2172-5"
        style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.72051454;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc5900-6">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
+         id="desc5900-6">{&quot;component&quot;:&quot;Wall&quot;}</desc>
     </rect>
     <rect
        y="0.043743167"
@@ -91,7 +91,7 @@
        id="rect2172-2"
        style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.40515584;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc5900-9">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
+         id="desc5900-9">{&quot;component&quot;:&quot;Wall&quot;}</desc>
     </rect>
     <rect
        y="1.3181024"
@@ -101,7 +101,7 @@
        id="rect2172-5-1"
        style="opacity:1;fill:#3e1900;fill-opacity:1;stroke:none;stroke-width:0.72051454;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc5900-6-2">{&quot;component&quot;:&quot;Wall.qml&quot;}</desc>
+         id="desc5900-6-2">{&quot;component&quot;:&quot;Wall&quot;}</desc>
     </rect>
     <rect
        y="83.67308"
@@ -111,7 +111,7 @@
        id="rect2172-5-2-47"
        style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc5900-6-28-65">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+         id="desc5900-6-28-65">{&quot;component&quot;:&quot;Garden&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -121,7 +121,7 @@
        x="19.228018"
        y="39.679092">
       <desc
-         id="desc2865">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+         id="desc2865">{&quot;component&quot;:&quot;Garden&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -131,7 +131,7 @@
        x="17.891663"
        y="122.51965">
       <desc
-         id="desc2873">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+         id="desc2873">{&quot;component&quot;:&quot;Garden&quot;}</desc>
     </rect>
     <rect
        y="83.432564"
@@ -141,7 +141,7 @@
        id="rect2879"
        style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2877">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+         id="desc2877">{&quot;component&quot;:&quot;Garden&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -151,7 +151,7 @@
        x="78.027306"
        y="122.51965">
       <desc
-         id="desc2881">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+         id="desc2881">{&quot;component&quot;:&quot;Garden&quot;}</desc>
     </rect>
     <rect
        y="40.160179"
@@ -161,7 +161,7 @@
        id="rect2887"
        style="opacity:1;fill:#44aa00;fill-opacity:1;stroke:none;stroke-width:0.24502043;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2885">{&quot;component&quot;:&quot;Garden.qml&quot;}</desc>
+         id="desc2885">{&quot;component&quot;:&quot;Garden&quot;}</desc>
     </rect>
     <rect
        y="59.488438"
@@ -171,7 +171,7 @@
        id="rect2821"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2819">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2819">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -181,7 +181,7 @@
        x="24.291555"
        y="58.267536">
       <desc
-         id="desc2823">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2823">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="59.503483"
@@ -191,7 +191,7 @@
        id="rect2829"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2827">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2827">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -201,7 +201,7 @@
        x="33.173996"
        y="58.093594">
       <desc
-         id="desc2831">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2831">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="59.235046"
@@ -211,7 +211,7 @@
        id="rect2837"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2835">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2835">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -221,7 +221,7 @@
        x="42.6045"
        y="57.504063">
       <desc
-         id="desc2851">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2851">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="59.401466"
@@ -231,7 +231,7 @@
        id="rect2857"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2855">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2855">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -241,7 +241,7 @@
        x="53.187832"
        y="57.613602">
       <desc
-         id="desc2859">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2859">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="59.605499"
@@ -251,7 +251,7 @@
        id="rect2865"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2863">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2863">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -261,7 +261,7 @@
        x="46.10078"
        y="100.4495">
       <desc
-         id="desc2875">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2875">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="99.977028"
@@ -271,7 +271,7 @@
        id="rect2905"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2903">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2903">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -281,7 +281,7 @@
        x="35.989918"
        y="100.73298">
       <desc
-         id="desc2907">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2907">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="99.315567"
@@ -291,7 +291,7 @@
        id="rect2913"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2911">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2911">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -301,7 +301,7 @@
        x="25.31209"
        y="100.82748">
       <desc
-         id="desc2915">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2915">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="99.977028"
@@ -311,7 +311,7 @@
        id="rect2921"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2919">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2919">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -321,7 +321,7 @@
        x="58.573994"
        y="100.355">
       <desc
-         id="desc2935">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2935">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="99.032089"
@@ -331,7 +331,7 @@
        id="rect2941"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2939">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2939">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -341,7 +341,7 @@
        x="59.802414"
        y="140.32599">
       <desc
-         id="desc2943">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2943">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="140.13699"
@@ -351,7 +351,7 @@
        id="rect2969"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2967">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2967">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -361,7 +361,7 @@
        x="35.611938"
        y="141.64891">
       <desc
-         id="desc2971">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2971">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="139.94801"
@@ -371,7 +371,7 @@
        id="rect2977"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2975">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2975">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -381,7 +381,7 @@
        x="47.518188"
        y="140.60947">
       <desc
-         id="desc2979">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2979">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="139.28656"
@@ -391,7 +391,7 @@
        id="rect2985"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2983">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2983">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -401,7 +401,7 @@
        x="9.6260748"
        y="125.7739">
       <desc
-         id="desc2987">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2987">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="131.44354"
@@ -411,7 +411,7 @@
        id="rect2993"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2991">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2991">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -421,7 +421,7 @@
        x="9.7205687"
        y="137.30217">
       <desc
-         id="desc2995">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2995">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="140.51497"
@@ -431,7 +431,7 @@
        id="rect3001"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc2999">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc2999">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -441,7 +441,7 @@
        x="24.272652"
        y="141.17642">
       <desc
-         id="desc3003">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3003">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="104.32375"
@@ -451,7 +451,7 @@
        id="rect3009"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3007">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3007">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -461,7 +461,7 @@
        x="10.193039"
        y="112.82821">
       <desc
-         id="desc3011">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3011">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="120.00977"
@@ -471,7 +471,7 @@
        id="rect3017"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3015">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3015">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="84.952477"
@@ -481,7 +481,7 @@
        id="rect3023"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3021">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3021">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -491,7 +491,7 @@
        x="11.704944"
        y="90.622116">
       <desc
-         id="desc3025">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3025">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="96.480743"
@@ -501,7 +501,7 @@
        id="rect3031"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3029">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3029">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -511,7 +511,7 @@
        x="11.326968"
        y="63.502323">
       <desc
-         id="desc3033">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3033">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="72.006783"
@@ -521,7 +521,7 @@
        id="rect3039"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3037">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3037">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -531,7 +531,7 @@
        x="9.1536045"
        y="79.188347">
       <desc
-         id="desc3041">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3041">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -541,7 +541,7 @@
        x="11.326968"
        y="43.375095">
       <desc
-         id="desc3045">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3045">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="49.044735"
@@ -551,7 +551,7 @@
        id="rect3051"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3049">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3049">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -561,7 +561,7 @@
        x="11.421462"
        y="54.903362">
       <desc
-         id="desc3053">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3053">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="21.924942"
@@ -571,7 +571,7 @@
        id="rect3059"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3057">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3057">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -581,7 +581,7 @@
        x="11.893933"
        y="30.429401">
       <desc
-         id="desc3061">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3061">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="37.610966"
@@ -591,7 +591,7 @@
        id="rect3067"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3065">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3065">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -601,7 +601,7 @@
        x="38.257771"
        y="19.751577">
       <desc
-         id="desc3073">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3073">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="21.263494"
@@ -611,7 +611,7 @@
        id="rect3079"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3077">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3077">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -621,7 +621,7 @@
        x="49.880539"
        y="19.562597">
       <desc
-         id="desc3081">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3081">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="20.224051"
@@ -631,7 +631,7 @@
        id="rect3087"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3085">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3085">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -641,7 +641,7 @@
        x="60.93634"
        y="18.901144">
       <desc
-         id="desc3089">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3089">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="16.916754"
@@ -651,7 +651,7 @@
        id="rect3095"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3093">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3093">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -661,7 +661,7 @@
        x="24.083664"
        y="20.129553">
       <desc
-         id="desc3097">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3097">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="20.791006"
@@ -671,7 +671,7 @@
        id="rect3103"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc3101">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc3101">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="127.91206"
@@ -681,7 +681,7 @@
        id="rect4230"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4228">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4228">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -691,7 +691,7 @@
        x="66.352066"
        y="133.5817">
       <desc
-         id="desc4232">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4232">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="139.44032"
@@ -701,7 +701,7 @@
        id="rect4238"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4236">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4236">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -711,7 +711,7 @@
        x="71.54924"
        y="142.65312">
       <desc
-         id="desc4240">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4240">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -721,7 +721,7 @@
        x="65.974091"
        y="106.46191">
       <desc
-         id="desc4244">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4244">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="114.96636"
@@ -731,7 +731,7 @@
        id="rect4250"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4248">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4248">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -741,7 +741,7 @@
        x="63.800724"
        y="122.14793">
       <desc
-         id="desc4252">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4252">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -751,7 +751,7 @@
        x="66.163078"
        y="87.09063">
       <desc
-         id="desc4256">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4256">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="92.760269"
@@ -761,7 +761,7 @@
        id="rect4262"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4260">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4260">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -771,7 +771,7 @@
        x="66.257568"
        y="98.618896">
       <desc
-         id="desc4264">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4264">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="65.64048"
@@ -781,7 +781,7 @@
        id="rect4270"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4268">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4268">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -791,7 +791,7 @@
        x="66.730042"
        y="74.144936">
       <desc
-         id="desc4272">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4272">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="81.3265"
@@ -801,7 +801,7 @@
        id="rect4278"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4276">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4276">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="45.513252"
@@ -811,7 +811,7 @@
        id="rect4282"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4280">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4280">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -821,7 +821,7 @@
        x="68.052956"
        y="51.182892">
       <desc
-         id="desc4284">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4284">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="57.041519"
@@ -831,7 +831,7 @@
        id="rect4290"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4288">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4288">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -841,7 +841,7 @@
        x="67.67498"
        y="24.063099">
       <desc
-         id="desc4292">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4292">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="32.567558"
@@ -851,7 +851,7 @@
        id="rect4298"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4296">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4296">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -861,7 +861,7 @@
        x="65.501617"
        y="39.749123">
       <desc
-         id="desc4300">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4300">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -871,7 +871,7 @@
        x="73.439117"
        y="19.054911">
       <desc
-         id="desc4304">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4304">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -881,7 +881,7 @@
        x="123.48289"
        y="127.64479">
       <desc
-         id="desc4308">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4308">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="133.31442"
@@ -891,7 +891,7 @@
        id="rect4314"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4312">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4312">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -901,7 +901,7 @@
        x="123.57738"
        y="139.17305">
       <desc
-         id="desc4316">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4316">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="106.19463"
@@ -911,7 +911,7 @@
        id="rect4326"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4324">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4324">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -921,7 +921,7 @@
        x="124.04986"
        y="114.69909">
       <desc
-         id="desc4328">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4328">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="121.88065"
@@ -931,7 +931,7 @@
        id="rect4334"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4332">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4332">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="86.823357"
@@ -941,7 +941,7 @@
        id="rect4338"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4336">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4336">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -951,7 +951,7 @@
        x="125.56176"
        y="92.492996">
       <desc
-         id="desc4340">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4340">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="98.351624"
@@ -961,7 +961,7 @@
        id="rect4346"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4344">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4344">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -971,7 +971,7 @@
        x="125.18378"
        y="65.373207">
       <desc
-         id="desc4348">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4348">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="73.877663"
@@ -981,7 +981,7 @@
        id="rect4354"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4352">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4352">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -991,7 +991,7 @@
        x="123.01042"
        y="81.059227">
       <desc
-         id="desc4356">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4356">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1001,7 +1001,7 @@
        x="125.18378"
        y="45.245983">
       <desc
-         id="desc4360">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4360">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="50.915623"
@@ -1011,7 +1011,7 @@
        id="rect4366"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4364">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4364">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1021,7 +1021,7 @@
        x="125.27828"
        y="56.77425">
       <desc
-         id="desc4368">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4368">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="23.79583"
@@ -1031,7 +1031,7 @@
        id="rect4374"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4372">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4372">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1041,7 +1041,7 @@
        x="125.75075"
        y="32.300289">
       <desc
-         id="desc4376">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4376">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="39.481853"
@@ -1051,7 +1051,7 @@
        id="rect4382"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4380">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4380">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="19.85672"
@@ -1061,7 +1061,7 @@
        id="rect4386"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4384">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4384">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="142.99869"
@@ -1071,7 +1071,7 @@
        id="rect4390"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4388">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4388">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1081,7 +1081,7 @@
        x="83.317917"
        y="142.80969">
       <desc
-         id="desc4392">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4392">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="144.32161"
@@ -1091,7 +1091,7 @@
        id="rect4398"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4396">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4396">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1101,7 +1101,7 @@
        x="94.940689"
        y="142.62071">
       <desc
-         id="desc4400">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4400">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="143.28217"
@@ -1111,7 +1111,7 @@
        id="rect4406"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4404">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4404">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1121,7 +1121,7 @@
        x="105.99649"
        y="141.95926">
       <desc
-         id="desc4408">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4408">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="143.84912"
@@ -1131,7 +1131,7 @@
        id="rect4418"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4416">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4416">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1141,7 +1141,7 @@
        x="118.49927"
        y="142.11302">
       <desc
-         id="desc4420">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4420">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1151,7 +1151,7 @@
        x="114.05813"
        y="101.03737">
       <desc
-         id="desc4424">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4424">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="100.84837"
@@ -1161,7 +1161,7 @@
        id="rect4430"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4428">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4428">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1171,7 +1171,7 @@
        x="89.867653"
        y="102.36029">
       <desc
-         id="desc4432">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4432">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="100.65939"
@@ -1181,7 +1181,7 @@
        id="rect4438"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4436">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4436">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1191,7 +1191,7 @@
        x="101.7739"
        y="101.32085">
       <desc
-         id="desc4440">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4440">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="99.99794"
@@ -1201,7 +1201,7 @@
        id="rect4446"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4444">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4444">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="101.22635"
@@ -1211,7 +1211,7 @@
        id="rect4450"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4448">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4448">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1221,7 +1221,7 @@
        x="78.528366"
        y="101.8878">
       <desc
-         id="desc4452">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4452">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="100.1517"
@@ -1231,7 +1231,7 @@
        id="rect4458"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4456">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4456">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="59.877861"
@@ -1241,7 +1241,7 @@
        id="rect4462"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4460">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4460">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1251,7 +1251,7 @@
        x="85.990608"
        y="59.688866">
       <desc
-         id="desc4464">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4464">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="61.200783"
@@ -1261,7 +1261,7 @@
        id="rect4470"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4468">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4468">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1271,7 +1271,7 @@
        x="97.61338"
        y="59.499886">
       <desc
-         id="desc4472">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4472">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="60.161339"
@@ -1281,7 +1281,7 @@
        id="rect4478"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4476">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4476">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1291,7 +1291,7 @@
        x="108.66918"
        y="58.838432">
       <desc
-         id="desc4480">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4480">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1301,7 +1301,7 @@
        x="71.816505"
        y="60.066841">
       <desc
-         id="desc4484">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4484">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="60.728294"
@@ -1311,7 +1311,7 @@
        id="rect4490"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4488">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4488">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1321,7 +1321,7 @@
        x="121.17195"
        y="58.992195">
       <desc
-         id="desc4492">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4492">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="18.796629"
@@ -1331,7 +1331,7 @@
        id="rect4502"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4500">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4500">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1341,7 +1341,7 @@
        x="99.222084"
        y="20.308546">
       <desc
-         id="desc4504">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4504">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="18.607649"
@@ -1351,7 +1351,7 @@
        id="rect4510"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4508">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4508">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1361,7 +1361,7 @@
        x="111.12833"
        y="19.269102">
       <desc
-         id="desc4512">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4512">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="19.174604"
@@ -1371,7 +1371,7 @@
        id="rect4522"
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc4520">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4520">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        style="opacity:1;fill:#e9ddaf;fill-opacity:1;stroke:none;stroke-width:0.24502048;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1381,7 +1381,7 @@
        x="87.882797"
        y="19.836058">
       <desc
-         id="desc4524">{&quot;component&quot;:&quot;Tile.qml&quot;}</desc>
+         id="desc4524">{&quot;component&quot;:&quot;Tile&quot;}</desc>
     </rect>
     <rect
        y="81.38488"
@@ -1391,7 +1391,7 @@
        id="rect5922"
        style="opacity:1;fill:#0088aa;fill-opacity:1;stroke:none;stroke-width:0.12464931;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <desc
-         id="desc5920">{&quot;component&quot;:&quot;Player.qml&quot;}</desc>
+         id="desc5920">{&quot;component&quot;:&quot;Player&quot;}</desc>
     </rect>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1400,7 +1400,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc">
       <desc
-         id="desc869">{&quot;component&quot;:&quot;EnemyMaster.qml&quot;}</desc>
+         id="desc869">{&quot;component&quot;:&quot;EnemyMaster&quot;}</desc>
     </path>
     <path
        sodipodi:nodetypes="ccccc"
@@ -1409,7 +1409,7 @@
        d="m 105.83874,13.372601 20.31247,4.409951 3.34087,41.827684 -25.3906,3.474499 -3.97801,-12.810176"
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
       <desc
-         id="desc871">{&quot;component&quot;:&quot;EnemyMaster.qml&quot;}</desc>
+         id="desc871">{&quot;component&quot;:&quot;EnemyMaster&quot;}</desc>
     </path>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1418,7 +1418,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc">
       <desc
-         id="desc879">{&quot;component&quot;:&quot;EnemyMaster.qml&quot;}</desc>
+         id="desc879">{&quot;component&quot;:&quot;EnemyMaster&quot;}</desc>
     </path>
   </g>
 </svg>

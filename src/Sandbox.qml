@@ -15,6 +15,19 @@ ClayWorld {
     timeStep: 1/60.0
     running: false
 
+    components: new Map([
+                         ['Player', c1],
+                         ['Wall', c2],
+                         ['Enemy', c3],
+                         ['Garden', c4],
+                         ['Tile', c5]
+                     ])
+    Component { id: c1; Player {} }
+    Component { id: c2; Wall {} }
+    Component { id: c3; Enemy {} }
+    Component { id: c4; Garden {} }
+    Component { id: c5; Tile {} }
+
     property var player: null
     //physicsDebugging: true
 
@@ -111,10 +124,10 @@ ClayWorld {
     }
 
     onObjectCreated: {
-        if (isInstanceOf(obj, "Player")) {
+        if (obj instanceof Player) {
             player = obj;
         }
-        else if (isInstanceOf(obj, "Garden")) {
+        else if (obj instanceof Garden) {
            theReferee.addGarden(obj);
         }
     }

@@ -55,21 +55,21 @@ GameEntity
 
     function _onCollision(fixture) {
         var e = fixture.getBody().target;
-        if (gameWorld.isInstanceOf(e, "Player")) {
+        if (e instanceof Player) {
             if (e.isDodging) theEnemy.destroy();
             else e.energy -= 1;
         }
-        else if (gameWorld.isInstanceOf(e, "Waypoint")) {
+        else if (e instanceof Waypoint) {
             _goForNextWp();
         }
-        else if (gameWorld.isInstanceOf(e, "Garden")) {
+        else if (e instanceof Garden) {
             theMunchTimer.start();
         }
     }
 
     function _onEndContact() {
         var e = fixture.getBody().target;
-        if (gameWorld.isInstanceOf(e, "Garden")) {
+        if (e instanceof Garden) {
             theMunchTimer.stop();
         }
     }
