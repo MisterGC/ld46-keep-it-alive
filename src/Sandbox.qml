@@ -197,4 +197,29 @@ ClayWorld {
         }
     }
 
+    Minimap {
+        visible: theWorld.running
+        opacity: 0.75
+        world: theWorld
+        width: parent.width * 0.1
+        height: width * (coordSys.height / coordSys.width)
+        anchors.right: parent.right
+        anchors.rightMargin: width * 0.05
+        anchors.bottom: parent.bottom
+        anchors.bottomMargin: anchors.rightMargin
+        color: "white"
+
+        typeMapping: new Map([
+                         ['Player', mc1],
+                         ['Enemy', mc2],
+                         ['Garden', mc3],
+                         ['Storm', mc4]
+                     ])
+
+        Component {id: mc1; Rectangle {color: "#337ba1"}}
+        Component {id: mc2; Rectangle {color: "#ae3d30"}}
+        Component {id: mc3; Rectangle {color: "#78c438"}}
+        Component {id: mc4; Rectangle {opacity: 0.4; color: "grey"}}
+    }
+
 }
