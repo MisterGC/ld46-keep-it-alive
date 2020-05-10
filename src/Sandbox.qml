@@ -147,6 +147,7 @@ ClayWorld {
         id: bgMusic
         source: theWorld.resource("sound/bgmusic.wav")
         loops: SoundEffect.Infinite
+        volume: .7
     }
 
     StartScreen {
