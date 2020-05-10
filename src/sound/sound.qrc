@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/sound">
+        <file>burst.wav</file>
         <file>bgmusic.wav</file>
         <file>munching.wav</file>
         <file>protecting.wav</file>

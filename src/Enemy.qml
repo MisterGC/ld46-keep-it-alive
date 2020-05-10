@@ -11,6 +11,7 @@ GameEntity
     id: theEnemy
 
     source: gameWorld.resource("visual/enemy.png");
+    readonly property bool _alive: (source !== "")
     bodyType: Body.Dynamic
     bullet: true
     sensor: true
@@ -54,9 +55,10 @@ GameEntity
     }
 
     function _onCollision(fixture) {
+        if (!_alive) return;
         var e = fixture.getBody().target;
         if (e instanceof Player) {
-            if (e.isDodging) theEnemy.destroy();
+            if (e.isDodging) initiateBurst();
             else e.energy -= 1;
         }
         else if (e instanceof Waypoint) {
@@ -71,6 +73,24 @@ GameEntity
         var e = fixture.getBody().target;
         if (e instanceof Garden) {
             theMunchTimer.stop();
+        }
+    }
+
+    function initiateBurst() {
+        theEnemy.text = "";
+        theEnemy.source = "";
+        theEnemy.linearVelocity.x = 0;
+        theEnemy.linearVelocity.y = 0;
+        let obj = theBurst.createObject(theEnemy);
+        obj.finished.connect(onBursted);
+    }
+    function onBursted() { theEnemy.destroy(); }
+    Component {
+        id: theBurst
+        BurstFx {
+            width: theEnemy.width
+            height: theEnemy.height
+            anchors.centerIn: parent
         }
     }
 
